@@ -1,0 +1,9310 @@
+fid,Name,description,timestamp,begin,end,altitudeMode,tessellate,extrude,visibility,drawOrder,icon,snippet,layer,path
+1,Biella,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Biella</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>96</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Biella</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>170027</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>81445</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+2,Verbano-Cusio-Ossola,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Verbano-Cusio-Ossola</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>103</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Verbano-Cusio-Ossola</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VB</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>154249</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>73807</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+3,Torino,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Torino</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>201</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Torino</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>2208370</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>1052777</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+4,Vercelli,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Vercelli</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Vercelli</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VC</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>166083</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>77705</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+5,Novara,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Novara</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Novara</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>NO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>361916</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>163549</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+6,Cuneo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Cuneo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>4</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Cuneo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>580155</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>260059</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+7,Asti,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Asti</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>5</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Asti</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>208286</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>95528</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+8,Alessandria,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Alessandria</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>6</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Alessandria</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AL</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>407264</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>197081</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R01_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R01_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+9,Aosta,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Aosta</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>7</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Aosta</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>123360</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>60468</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R02_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R02_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+10,Lecco,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Lecco</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>97</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Lecco</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>LC</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>332457</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>145726</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+11,Lodi,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Lodi</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>98</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Lodi</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>LO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>227327</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>98197</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+12,Monza e della Brianza,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Monza e della Brianza</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>108</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Monza e della Brianza</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MB</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>870407</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>381293</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+13,Varese,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Varese</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>12</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Varese</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>877668</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>388352</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+14,Como,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Como</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>13</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Como</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>594941</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>262648</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+15,Sondrio,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Sondrio</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>14</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Sondrio</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>178784</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>80000</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+16,Milano,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Milano</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>215</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Milano</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>3214630</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>1543973</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+17,Bergamo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Bergamo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>16</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Bergamo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BG</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1102997</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>473846</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+18,Brescia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Brescia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>17</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Brescia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BS</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1253157</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>545421</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+19,Pavia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Pavia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>18</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Pavia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PV</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>534506</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>246439</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+20,Cremona,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Cremona</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>19</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Cremona</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>351654</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>153574</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+21,Mantova,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Mantova</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>20</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Mantova</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>404476</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>172954</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R03_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R03_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+22,Bolzano,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Bolzano</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>21</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Bolzano</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BZ</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>532616</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>229882</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R04_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R04_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+23,Trento,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Trento</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>22</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Trento</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>540958</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>240025</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R04_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R04_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+24,Verona,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Verona</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>23</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Verona</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>924024</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>400723</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+25,Vicenza,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Vicenza</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>24</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Vicenza</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>852139</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>365498</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+26,Belluno,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Belluno</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>25</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Belluno</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>198676</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>93752</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+27,Treviso,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Treviso</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>26</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Treviso</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TV</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>877890</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>368762</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+28,Venezia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Venezia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>227</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Venezia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>836916</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>378428</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+29,Padova,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Padova</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>28</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Padova</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PD</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>929198</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>400290</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+30,Rovigo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Rovigo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>29</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Rovigo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>228902</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>102025</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R05_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R05_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+31,Pordenone,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Pordenone</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>93</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Pordenone</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>309473</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>135631</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R06_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R06_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+32,Udine,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Udine</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>30</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Udine</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>UD</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>518442</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>243457</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R06_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R06_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+33,Gorizia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Gorizia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>31</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Gorizia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>GO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>137899</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>66309</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R06_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R06_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+34,Trieste,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Trieste</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>32</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Trieste</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TS</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>228833</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>119346</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R06_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R06_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+35,Imperia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Imperia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>8</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Imperia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>IM</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>208670</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>103256</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R07_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R07_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+36,Savona,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Savona</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>9</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Savona</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SV</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>268038</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>136292</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R07_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R07_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+37,Genova,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Genova</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>210</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Genova</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>GE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>817402</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>418096</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R07_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R07_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+38,La Spezia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>La Spezia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>11</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>La Spezia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SP</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>215117</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>103287</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R07_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R07_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+39,Rimini,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Rimini</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>99</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Rimini</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>338369</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>150298</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+40,Piacenza,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Piacenza</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>33</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Piacenza</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PC</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>283435</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>130337</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+41,Parma,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Parma</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>34</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Parma</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>448916</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>205702</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+42,Reggio nell'Emilia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Reggio nell'Emilia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>35</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Reggio nell'Emilia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>525586</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>229912</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+43,Modena,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Modena</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>36</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Modena</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>701751</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>308600</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+44,Bologna,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Bologna</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>237</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Bologna</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1010812</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>492822</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+45,Ferrara,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Ferrara</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>38</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Ferrara</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>FE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>339573</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>161544</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+46,Ravenna,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Ravenna</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>39</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Ravenna</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>385631</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>179575</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+47,Forli'-Cesena,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Forli'-Cesena</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>40</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Forli'-Cesena</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>FC</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>391293</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>173429</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R08_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R08_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+48,Prato,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Prato</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>100</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Prato</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PO</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>258123</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>106690</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+49,Massa Carrara,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Massa Carrara</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>45</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Massa Carrara</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MS</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>188483</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>87818</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+50,Lucca,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Lucca</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>46</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Lucca</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>LU</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>382464</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>171240</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+51,Pistoia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Pistoia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>47</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Pistoia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>289414</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>126724</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+52,Firenze,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Firenze</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>248</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Firenze</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>FI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>987260</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>456078</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+53,Livorno,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Livorno</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>49</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Livorno</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>LI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>327262</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>155340</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+54,Pisa,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Pisa</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>50</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Pisa</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>417041</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>187299</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+55,Arezzo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Arezzo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>51</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Arezzo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>334926</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>147521</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+56,Siena,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Siena</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>52</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Siena</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>261209</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>119737</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+57,Grosseto,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Grosseto</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>53</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Grosseto</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>GR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>217009</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>104127</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R09_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R09_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+58,Perugia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Perugia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>54</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Perugia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PG</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>640482</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>281962</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R10_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R10_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+59,Terni,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Terni</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>55</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Terni</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>218330</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>101969</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R10_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R10_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+60,Fermo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Fermo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>109</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Fermo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>FM</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>168294</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>72015</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R11_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R11_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+61,Pesaro e Urbino,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Pesaro e Urbino</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>41</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Pesaro e Urbino</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PU</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>349818</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>151923</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R11_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R11_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+62,Ancona,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Ancona</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>42</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Ancona</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>461687</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>205395</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R11_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R11_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+63,Macerata,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Macerata</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>43</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Macerata</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MC</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>304986</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>130449</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R11_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R11_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+64,Ascoli Piceno,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Ascoli Piceno</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>44</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Ascoli Piceno</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AP</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>202365</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>87082</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R11_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R11_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+65,Viterbo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Viterbo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>56</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Viterbo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>308737</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>142726</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R12_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R12_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+66,Rieti,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Rieti</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>57</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Rieti</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RI</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>151143</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>71368</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R12_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R12_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+67,Roma,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Roma</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>258</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Roma</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RM</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>4216874</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>1972311</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R12_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R12_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+68,Latina,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Latina</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>59</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Latina</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>LT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>567439</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>241964</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R12_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R12_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+69,Frosinone,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Frosinone</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>60</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Frosinone</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>FR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>470689</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>202523</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R12_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R12_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+70,L'Aquila,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>L'Aquila</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>66</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>L'Aquila</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AQ</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>288956</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>130357</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R13_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R13_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+71,Teramo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Teramo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>67</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Teramo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>299646</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>129156</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R13_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R13_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+72,Pescara,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Pescara</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>68</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Pescara</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>313631</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>136014</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R13_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R13_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+73,Chieti,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Chieti</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>69</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Chieti</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CH</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>373717</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>162786</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R13_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R13_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+74,Campobasso,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Campobasso</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>70</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Campobasso</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CB</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>211586</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>94973</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R14_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R14_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+75,Isernia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Isernia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>94</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Isernia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>IS</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>80564</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>35915</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R14_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R14_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+76,Avellino,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Avellino</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>64</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Avellino</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AV</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>401451</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>168604</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R15_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R15_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+77,Salerno,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Salerno</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>65</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Salerno</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1064493</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>432852</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R15_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R15_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+78,Caserta,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Caserta</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>61</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Caserta</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>905045</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>358621</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R15_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R15_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+79,Benevento,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Benevento</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>62</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Benevento</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>265055</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>112487</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R15_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R15_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+80,Napoli,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Napoli</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>263</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Napoli</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>NA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>2988376</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>1140332</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R15_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R15_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+81,Foggia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Foggia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>71</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Foggia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>FG</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>599028</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>248993</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R16_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R16_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+82,Bari,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Bari</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>272</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Bari</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1226784</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>502464</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R16_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R16_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+83,Taranto,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Taranto</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>73</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Taranto</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>559892</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>237027</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R16_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R16_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+84,Brindisi,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Brindisi</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>74</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Brindisi</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>381273</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>162002</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R16_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R16_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+85,Lecce,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Lecce</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>75</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Lecce</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>LE</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>775348</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>336897</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R16_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R16_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+86,Barletta-Andria-Trani,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Barletta-Andria-Trani</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>110</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Barletta-Andria-Trani</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>BT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>380616</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>148516</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R16_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R16_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+87,Potenza,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Potenza</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>76</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Potenza</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PZ</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>349616</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>153206</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R17_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R17_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+88,Matera,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Matera</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>77</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Matera</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>MT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>191552</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>83954</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R17_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R17_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+89,Cosenza,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Cosenza</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>78</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Cosenza</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CS</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>674543</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>303056</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R18_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R18_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+90,Catanzaro,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Catanzaro</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>79</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Catanzaro</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CZ</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>343673</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>149519</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R18_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R18_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+91,Reggio di Calabria,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Reggio di Calabria</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>280</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Reggio di Calabria</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RC</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>522127</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>221734</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R18_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R18_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+92,Crotone,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Crotone</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>101</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Crotone</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>KR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>163553</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>69659</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R18_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R18_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+93,Vibo Valentia,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Vibo Valentia</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>102</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Vibo Valentia</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>VV</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>151558</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>64477</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R18_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R18_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+94,Trapani,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Trapani</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>81</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Trapani</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>TP</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>417220</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>183834</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+95,Palermo,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Palermo</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>282</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Palermo</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>PA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1208991</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>503257</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+96,Messina,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Messina</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>283</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Messina</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>ME</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>603229</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>276107</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+97,Agrigento,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Agrigento</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>84</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Agrigento</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>AG</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>415887</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>175495</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+98,Caltanissetta,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Caltanissetta</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>85</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Caltanissetta</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CL</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>251715</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>106063</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+99,Enna,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Enna</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>86</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Enna</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>EN</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>156730</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>69166</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+100,Catania,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Catania</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>287</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Catania</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CT</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>1077515</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>454512</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+101,Ragusa,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Ragusa</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>88</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Ragusa</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>RG</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>316142</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>131641</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+102,Siracusa,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Siracusa</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>89</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Siracusa</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>385900</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>166073</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R19_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R19_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+103,Sassari,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Sassari</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>90</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Sassari</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SS</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>476516</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>226760</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R20_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R20_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+104,Nuoro,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Nuoro</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>91</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Nuoro</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>NU</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>200376</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>93530</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R20_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R20_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+105,Cagliari,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Cagliari</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>292</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Cagliari</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>CA</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>421688</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>198866</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R20_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R20_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+106,Oristano,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Oristano</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>95</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Oristano</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>OR</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>151655</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>68745</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R20_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R20_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes
+107,Sud Sardegna,"<html xmlns:fo=""http://www.w3.org/1999/XSL/Format"" xmlns:msxsl=""urn:schemas-microsoft-com:xslt"">
+
+<head>
+
+<META http-equiv=""Content-Type"" content=""text/html"">
+
+<meta http-equiv=""content-type"" content=""text/html; charset=UTF-8"">
+
+</head>
+
+<body style=""margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;"">
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px"">
+
+<tr style=""text-align:center;font-weight:bold;background:#9CBCE2"">
+
+<td>Sud Sardegna</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style=""font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px"">
+
+<tr>
+
+<td>COD_REG</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>COD_UTS</td>
+
+<td>111</td>
+
+</tr>
+
+<tr>
+
+<td>DEN_UTS</td>
+
+<td>Sud Sardegna</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>SIGLA</td>
+
+<td>SU</td>
+
+</tr>
+
+<tr>
+
+<td>POP21</td>
+
+<td>337178</td>
+
+</tr>
+
+<tr bgcolor=""#D4E4F3"">
+
+<td>FAM21</td>
+
+<td>152215</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+",,,,clampToGround,-1,0,-1,,,,R20_limiti — Provincia,/home/erasmo/Dropbox/lavoro/Francesco - vari/CURE/dati/dati_ISTAT/geometrie/Confini_21-kmz/R20_limiti.kmz|layername=Provincia|geometrytype=Polygon25D|uniqueGeometryType=yes

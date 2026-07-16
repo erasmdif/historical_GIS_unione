@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 440" role="img" aria-labelledby="title desc">
+  <title id="title">Stemma di famiglia segnaposto</title>
+  <desc id="desc">Scudo araldico neutro in blu ardesia e rosso mattone.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 28c-15 0-23 15-23 28 0-14-12-24-24-24-5 0-11 2-15 6 16 3 22 15 22 28h80c0-13 6-25 22-28-4-4-10-6-15-6-12 0-24 10-24 24 0-13-8-28-23-28Z" fill="#934123" stroke="#71311d" stroke-width="6"/>
+    <path d="M131 68h98l-8 24h-82Z" fill="#ede7da" stroke="#24323d" stroke-width="6"/>
+    <path d="M72 118c36-6 70-24 108-43 38 19 72 37 108 43v105c0 83-38 143-108 190-70-47-108-107-108-190Z" fill="#f4efe5" stroke="#24323d" stroke-width="11"/>
+    <path d="M90 134c31-8 59-23 90-39 31 16 59 31 90 39v86c0 70-31 122-90 165-59-43-90-95-90-165Z" stroke="#934123" stroke-width="4"/>
+    <path d="M180 136c16 20 31 34 31 56 0 18-13 31-31 31s-31-13-31-31c0-22 15-36 31-56Z" fill="#934123" opacity=".92"/>
+    <path d="M138 243c19 0 34 15 34 34v45m50-79c-19 0-34 15-34 34v45m-42-78c-23 0-42 18-42 41m110-41c23 0 42 18 42 41" stroke="#24323d" stroke-width="10"/>
+    <circle cx="180" cy="269" r="26" fill="#f4efe5" stroke="#24323d" stroke-width="9"/>
+    <path d="M67 161c-30 23-43 52-42 84 1 39 23 70 58 89M293 161c30 23 43 52 42 84-1 39-23 70-58 89" stroke="#934123" stroke-width="5"/>
+    <path d="M49 188c-15-3-26-13-32-28 17 1 29 9 37 23m-15 45c-15 1-28-6-37-19 17-4 31 2 41 14m270-35c15-3 26-13 32-28-17 1-29 9-37 23m15 45c15 1 28-6 37-19-17-4-31 2-41 14" stroke="#24323d" stroke-width="5"/>
+  </g>
+</svg>

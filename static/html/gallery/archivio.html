@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <base href="../../../" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galleria · Atlante Storico Digitale</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="static/css/common/site-nav.css" />
+  <link rel="stylesheet" href="static/css/gallery/archives.css" />
+</head>
+<body class="has-site-nav archive-view-page" data-section="archives" data-nav-title="Galleria">
+  <div id="site-nav-root"></div>
+  <main id="archive-view-root" class="archive-shell">
+    <section class="archive-hero">
+      <span class="archive-hero__eyebrow"><i class="bi bi-journal-richtext"></i> Galleria narrativa</span>
+      <h1 id="archive-title">Galleria</h1>
+      <p id="archive-subtitle">Consultazione dell’archivio in forma dinamica e divulgativa.</p>
+      <div id="archive-stats" class="archive-hero__stats"></div>
+    </section>
+    <div class="archive-mode-switch" style="margin-top:18px;">
+      <button class="btn switch" type="button" data-mode="reader"><i class="bi bi-images"></i><span>Lettore</span></button>
+      <button class="btn switch is-active" type="button" data-mode="dossier"><i class="bi bi-file-earmark-text"></i><span>Approfondimento</span></button>
+      <button class="btn switch" type="button" data-mode="split"><i class="bi bi-layout-sidebar-inset"></i><span>Affiancati</span></button>
+    </div>
+    <section id="archive-layout" class="archive-layout" data-mode="dossier">
+      <div id="archive-reader" class="archive-panel"></div>
+      <div id="archive-dossier" class="archive-panel"></div>
+    </section>
+  </main>
+  <div id="archive-lightbox" class="lightbox" hidden>
+    <button class="lightbox__close" type="button" aria-label="Chiudi"><i class="bi bi-x-lg"></i></button>
+    <img class="lightbox__img" alt="Ingrandimento immagine">
+    <div class="lightbox__caption"></div>
+  </div>
+  <script src="static/js/common/site-nav.js"></script>
+  <script src="static/js/common/maps-data.js"></script>
+  <script src="static/js/gallery/archives-config.js"></script>
+  <script src="static/js/gallery/archive-view.js"></script>
+</body>
+</html>

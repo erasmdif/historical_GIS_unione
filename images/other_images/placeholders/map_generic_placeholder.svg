@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Anteprima mappa non disponibile">
+  <rect width="1600" height="1000" fill="#f8fafc"/>
+  <rect x="56" y="56" width="1488" height="888" rx="32" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <path d="M140 760 C320 620, 480 760, 640 620 S960 470, 1180 620 S1360 740, 1460 620" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <path d="M180 280 L420 420 L700 310 L990 470 L1260 320" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="700" cy="310" r="18" fill="#ea580c"/>
+  <text x="120" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#0f172a">Anteprima non inclusa nello zip</text>
+  <text x="120" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#475569">Aggiungi le immagini originali nelle cartelle maps / maps_previews per vedere il contenuto reale.</text>
+</svg>

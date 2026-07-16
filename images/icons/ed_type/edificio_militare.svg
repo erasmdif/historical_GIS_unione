@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Edificio militare">
+  <title>Edificio militare</title>
+  <style>
+    .ink{stroke:#4B3A2A; fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}
+    .thin{stroke:#4B3A2A; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .fill{fill:#F3E5C3; stroke:#4B3A2A; stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round;}
+    .accent{stroke:#7A5A35; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .olive{stroke:#6F7045; fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round;}
+    .redfill{fill:#8A553C; stroke:#4B3A2A; stroke-width:1.5;}
+    
+  </style>
+  
+  <g transform="">
+
+    <path class="fill" d="M16 55V24h32v31Z"/>
+    <path class="fill" d="M14 24v-9h7v5h7v-5h8v5h7v-5h7v9Z"/>
+    <path class="thin" d="M25 55V44a7 7 0 0 1 14 0v11"/>
+    <path class="thin" d="M24 31h16"/>
+    <path class="thin" d="M21 37h5M38 37h5"/>
+
+  </g>
+</svg>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <base href="../../../" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4efe5" />
+  <title>Galleria · Atlante Storico Digitale</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="static/css/common/site-nav.css" />
+  <link rel="stylesheet" href="static/css/gallery/archives.css" />
+  <link rel="stylesheet" href="static/css/gallery/gallery.css" />
+</head>
+<body class="has-site-nav gallery-page" data-section="gallery" data-nav-title="Atlante Storico Digitale">
+  <div id="site-nav-root"></div>
+
+  <div class="gallery-app">
+    <aside class="gallery-index" aria-label="Indice delle gallerie tematiche">
+      <div class="gallery-index__title">Gallerie tematiche</div>
+
+      <nav class="gallery-index__nav">
+        <button class="gallery-index__item is-active" type="button" data-gallery-view="families" aria-current="page">
+          <span class="gallery-index__icon gallery-index__icon--asset" aria-hidden="true">
+            <img src="images/other_images/placeholders/gallery_family_mark.svg" alt="" />
+          </span>
+          <span class="gallery-index__copy">
+            <strong>Le famiglie</strong>
+            <small>Nobili e possidenti</small>
+          </span>
+        </button>
+
+        <button class="gallery-index__item" type="button" data-gallery-view="asmo">
+          <span class="gallery-index__icon"><i class="bi bi-building"></i></span>
+          <span class="gallery-index__copy">
+            <strong>Collezione ASMo</strong>
+            <small>Documenti e mappe</small>
+          </span>
+        </button>
+
+        <button class="gallery-index__item" type="button" data-gallery-view="vignola">
+          <span class="gallery-index__icon"><i class="bi bi-files"></i></span>
+          <span class="gallery-index__copy">
+            <strong>Collezione Archivio di Vignola</strong>
+            <small>Mappe e fondi storici</small>
+          </span>
+        </button>
+
+        <button class="gallery-index__item" type="button" data-gallery-view="castelnuovo">
+          <span class="gallery-index__icon"><i class="bi bi-bank"></i></span>
+          <span class="gallery-index__copy">
+            <strong>Castelnuovo Galliani</strong>
+            <small>Terra e comunità</small>
+          </span>
+        </button>
+
+        <button class="gallery-index__item" type="button" data-gallery-view="cities">
+          <span class="gallery-index__icon"><i class="bi bi-buildings"></i></span>
+          <span class="gallery-index__copy">
+            <strong>La città nella storia</strong>
+            <small>Evoluzione urbana</small>
+          </span>
+        </button>
+      </nav>
+
+      <div class="gallery-index__ornament" aria-hidden="true">
+        <img src="images/other_images/placeholders/gallery_sidebar_ornament.svg" alt="" />
+      </div>
+      <blockquote class="gallery-index__quote">
+        «Le carte del passato raccontano i legami che hanno plasmato il nostro territorio.»
+      </blockquote>
+    </aside>
+
+    <main id="gallery-main" class="gallery-main" aria-live="polite">
+      <div class="gallery-loading" role="status">
+        <span class="gallery-loading__spinner" aria-hidden="true"></span>
+        <span>Sto ricostruendo legami, possedimenti e mappe…</span>
+      </div>
+    </main>
+  </div>
+
+  <script src="static/js/common/site-nav.js"></script>
+  <script src="static/js/common/maps-data.js"></script>
+  <script src="static/js/gallery/archives-config.js"></script>
+  <script src="static/js/gallery/families-gallery.js"></script>
+</body>
+</html>

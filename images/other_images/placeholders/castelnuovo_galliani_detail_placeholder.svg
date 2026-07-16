@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#EEF2F7"/>
+  <rect x="72" y="72" width="1056" height="656" rx="28" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  <rect x="118" y="126" width="964" height="316" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="3"/>
+  <rect x="118" y="478" width="430" height="170" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="3"/>
+  <rect x="572" y="478" width="510" height="170" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="3"/>
+  <path d="M154 284H1038" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="10 10"/>
+  <path d="M154 332H882" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="10 10"/>
+  <circle cx="197" cy="214" r="40" fill="#FEE2E2"/>
+  <path d="M191 197H205V231H191z" fill="#B91C1C"/>
+  <path d="M179 209H217V223H179z" fill="#B91C1C"/>
+  <text x="600" y="560" text-anchor="middle" fill="#0F172A" font-family="system-ui, sans-serif" font-size="34" font-weight="700">Placeholder per dettaglio metrologico</text>
+  <text x="600" y="608" text-anchor="middle" fill="#475569" font-family="system-ui, sans-serif" font-size="24">Sostituire con un ritaglio ravvicinato delle sigle di misura</text>
+</svg>

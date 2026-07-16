@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Appezzamento">
+  <title>Appezzamento</title>
+  <style>
+    .ink{stroke:#4B3A2A; fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}
+    .thin{stroke:#4B3A2A; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .fill{fill:#F3E5C3; stroke:#4B3A2A; stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round;}
+    .accent{stroke:#7A5A35; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .olive{stroke:#6F7045; fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round;}
+    .redfill{fill:#8A553C; stroke:#4B3A2A; stroke-width:1.5;}
+    
+  </style>
+  
+  <g transform="">
+
+    <path class="fill" d="M10 17h44v38H10Z"/>
+    <path class="olive" d="M18 19v34M29 18v36M41 18v36"/>
+    <path class="olive" d="M10 29c10 3 18 3 27 0 6-2 11-2 17 0"/>
+    <path class="olive" d="M10 42c10 3 18 3 27 0 6-2 11-2 17 0"/>
+    <path class="thin" d="M10 55h44"/>
+
+  </g>
+</svg>

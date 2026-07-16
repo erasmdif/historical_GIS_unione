@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <base href="../../../" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#24323d" />
+  <title>Atlante Storico Digitale · Terre di Castelli</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="static/css/homepage/home.css" />
+</head>
+<body class="home-page" data-rail-theme="hero">
+  <button class="rail-toggle" id="rail-toggle" type="button" aria-label="Apri la navigazione" aria-expanded="false">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <aside class="home-rail" id="home-rail" aria-label="Navigazione principale">
+    <a class="rail-brand" href="#home" aria-label="Atlante Storico Digitale">
+      <img src="images/other_images/home/home_identity_mark.png" alt="" />
+      <span class="rail-brand__eyebrow">Terre di Castelli</span>
+      <strong>Atlante Storico<br />Digitale</strong>
+    </a>
+
+    <nav class="rail-nav" aria-label="Sezioni della homepage">
+      <a class="rail-link is-active" href="#home" data-section-link="home"><i class="bi bi-house-door"></i><span>Home</span></a>
+      <a class="rail-link" href="#progetto" data-section-link="progetto"><i class="bi bi-compass"></i><span>Il progetto</span></a>
+      <a class="rail-link" href="#patrimonio" data-section-link="patrimonio"><i class="bi bi-grid-3x2-gap"></i><span>Esplora</span></a>
+      <a class="rail-link" href="#strati" data-section-link="strati"><i class="bi bi-layers"></i><span>Il territorio</span></a>
+    </nav>
+
+    <div class="rail-divider"></div>
+
+    <nav class="rail-nav rail-nav--external" aria-label="Accessi al progetto">
+      <a class="rail-link" href="static/html/webgis/webgis.html"><i class="bi bi-globe2"></i><span>WebGIS</span></a>
+      <a class="rail-link" href="static/html/tag_viewer/dettaglio.html"><i class="bi bi-tags"></i><span>Tag</span></a>
+      <a class="rail-link" href="static/html/gallery/archivi.html"><i class="bi bi-collection"></i><span>Galleria</span></a>
+      <a class="rail-link" href="static/html/gallery/archivi.html?view=families"><i class="bi bi-people"></i><span>Famiglie</span></a>
+      <a class="rail-link" href="static/html/gallery/archivi.html?view=city"><i class="bi bi-buildings"></i><span>Città nel tempo</span></a>
+    </nav>
+
+    <p class="rail-quote">«Le carte del passato raccontano i legami che hanno plasmato il territorio.»</p>
+  </aside>
+  <div class="rail-scrim" id="rail-scrim" hidden></div>
+
+  <main class="home-main">
+    <header id="home" class="home-section hero-section" data-theme="hero">
+      <div class="hero-map-texture" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Atlante storico digitale · Unione Terre di Castelli</p>
+          <h1>A spasso nel tempo</h1>
+          <p class="hero-lead">
+            Mappe storiche, archivi e strumenti digitali per leggere il paesaggio, le comunità,
+            le proprietà e le trasformazioni che hanno modellato le Terre di Castelli.
+          </p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="static/html/webgis/webgis.html"><i class="bi bi-globe2"></i> Esplora le mappe</a>
+            <a class="button button--outline" href="#progetto"><i class="bi bi-arrow-down"></i> Scopri il progetto</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Il progetto in numeri">
+            <div class="hero-stat"><strong data-stat="maps" data-count="0">—</strong><span>mappe</span></div>
+            <div class="hero-stat"><strong data-stat="places" data-count="0">—</strong><span>luoghi</span></div>
+            <div class="hero-stat"><strong data-stat="families" data-count="0">—</strong><span>famiglie</span></div>
+            <div class="hero-stat"><strong data-stat="archives" data-count="0">—</strong><span>archivi</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-delay="120" aria-label="Veduta idealizzata di una città delle Terre di Castelli sul fiume Panaro">
+          <img src="images/other_images/home/home_hero_city.png" alt="Veduta illustrata di una città storica sul Panaro" />
+          <div class="hero-visual__caption"><i class="bi bi-water"></i> Paesaggio, insediamenti e vie d’acqua</div>
+        </div>
+      </div>
+    </header>
+
+    <section id="progetto" class="home-section project-section" data-theme="project">
+      <div class="section-inner">
+        <div class="project-intro">
+          <div class="project-vignette reveal" data-delay="60" aria-hidden="true">
+            <img src="images/other_images/archives/castelnuovo_galliani/castelnuovo_villa_landscape_vignette.png" alt="" />
+          </div>
+
+          <div class="project-copy reveal" data-delay="100">
+            <p class="eyebrow">Il progetto</p>
+            <h2>Un atlante digitale</h2>
+            <p>
+              <em>A spasso nel tempo</em> integra cartografia storica, fonti d’archivio, dati geografici
+              e percorsi narrativi per ricostruire luoghi, proprietà, famiglie e trasformazioni del territorio.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-pillars" aria-label="Componenti del progetto">
+          <article class="pillar reveal" data-delay="40">
+            <i class="bi bi-map"></i>
+            <div><h3>Cartografia storica</h3><p>Mappe, piante e documenti georeferenziati o consultabili nella loro forma originale.</p></div>
+          </article>
+          <article class="pillar reveal" data-delay="80">
+            <i class="bi bi-archive"></i>
+            <div><h3>Fonti e archivi</h3><p>Metadati, cartigli, registri e materiali provenienti da raccolte pubbliche e private.</p></div>
+          </article>
+          <article class="pillar reveal" data-delay="120">
+            <i class="bi bi-people"></i>
+            <div><h3>Persone e famiglie</h3><p>Legami, possedimenti e attestazioni ricostruiti attraverso una rete di dati collegati.</p></div>
+          </article>
+          <article class="pillar reveal" data-delay="160">
+            <i class="bi bi-clock-history"></i>
+            <div><h3>Evoluzione nel tempo</h3><p>Timeline, confronti tra geometrie e percorsi guidati per seguire le trasformazioni storiche.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="patrimonio" class="home-section heritage-section" data-theme="heritage">
+      <div class="section-inner section-inner--wide">
+        <div class="heritage-head reveal">
+          <div>
+            <p class="eyebrow">Esplora il patrimonio</p>
+            <h2>Sei ingressi, una sola storia</h2>
+          </div>
+          <div class="carousel-controls" aria-label="Controlli del carosello">
+            <button id="features-prev" type="button" aria-label="Schede precedenti"><i class="bi bi-arrow-left"></i></button>
+            <button id="features-next" type="button" aria-label="Schede successive"><i class="bi bi-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="features-viewport reveal" data-delay="60">
+          <div class="features-track" id="features-track">
+            <a class="feature-panel feature-panel--webgis" href="static/html/webgis/webgis.html">
+              <span class="feature-number">01</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-globe2"></i> Esplorazione geografica</span><h3>Il territorio sulla mappa</h3><p>Consulta comuni, archivi e carte georeferenziate attraverso una vista territoriale unitaria.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+
+            <a class="feature-panel feature-panel--historical" href="static/html/webgis/webgis.html">
+              <span class="feature-number">02</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-layers"></i> Cartografia interattiva</span><h3>Dentro la carta storica</h3><p>Sovrapponi il documento al territorio attuale, regola i livelli e interroga proprietari e categorie.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+
+            <a class="feature-panel feature-panel--tagged" id="feature-tagged-link" href="static/html/tag_viewer/dettaglio.html">
+              <span class="feature-number">03</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-tags"></i> Immagini annotate</span><h3>Luoghi dentro le mappe</h3><p>Esplora immagini ad alta risoluzione e apri le schede dei toponimi direttamente dalla tavola.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+
+            <a class="feature-panel feature-panel--families" href="static/html/gallery/archivi.html?view=families">
+              <span class="feature-number">04</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-people"></i> Storie patrimoniali</span><h3>Famiglie, persone, possedimenti</h3><p>Segui i nuclei familiari attraverso luoghi, mappe, relazioni e trasformazioni nel tempo.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+
+            <a class="feature-panel feature-panel--archives" href="static/html/gallery/archivi.html?view=asmo">
+              <span class="feature-number">05</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-archive"></i> Percorsi documentari</span><h3>Collezioni e racconti d’archivio</h3><p>Sfoglia corpus cartografici, volumi digitalizzati e approfondimenti narrativi.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+
+            <a class="feature-panel feature-panel--city" href="static/html/gallery/archivi.html?view=city">
+              <span class="feature-number">06</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-buildings"></i> Evoluzione urbana</span><h3>Le città nel tempo</h3><p>Scorri le attestazioni cronologiche, confronta geometrie storiche e riapri le fasi precedenti.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-dots" id="features-dots" aria-label="Pagine del carosello"></div>
+      </div>
+    </section>
+
+    <section id="strati" class="home-section layers-section" data-theme="layers">
+      <div class="section-inner layers-layout">
+        <div class="layers-copy reveal">
+          <p class="eyebrow">Un territorio a strati</p>
+          <h2>Leggere il passato,<br />comprendere il presente</h2>
+          <p>
+            Il paesaggio emerge dalla sovrapposizione di fonti differenti. Le carte storiche restituiscono
+            confini e forme; i documenti aggiungono proprietari, usi e relazioni; le basi attuali consentono
+            di riconoscere permanenze, spostamenti e trasformazioni.
+          </p>
+          <a class="button button--outline" href="static/html/gallery/archivi.html?view=city"><i class="bi bi-clock-history"></i> Segui una città nel tempo</a>
+        </div>
+
+        <div class="layers-visual reveal" data-delay="80">
+          <img src="images/other_images/home/home_layers.png" alt="Infografica con livelli cartografici storici sovrapposti" />
+          <div class="layer-label layer-label--one"><strong>Mappe storiche</strong><span>Confini, edifici e proprietà</span></div>
+          <div class="layer-label layer-label--two"><strong>Fonti e relazioni</strong><span>Persone, famiglie e descrizioni</span></div>
+          <div class="layer-label layer-label--three"><strong>Territorio attuale</strong><span>Paesaggi e luoghi di oggi</span></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="home-footer">
+      <img src="images/other_images/home/home_identity_mark.png" alt="" />
+      <div><strong>Atlante Storico Digitale</strong><span>Terre di Castelli · ricerca, cartografia e memoria territoriale</span></div>
+      <a href="#home" aria-label="Torna all’inizio"><i class="bi bi-arrow-up"></i></a>
+    </footer>
+  </main>
+
+  <script src="static/js/homepage/home.js"></script>
+</body>
+</html>

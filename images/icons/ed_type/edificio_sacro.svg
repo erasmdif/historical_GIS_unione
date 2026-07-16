@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Edificio sacro">
+  <title>Edificio sacro</title>
+  <style>
+    .ink{stroke:#4B3A2A; fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}
+    .thin{stroke:#4B3A2A; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .fill{fill:#F3E5C3; stroke:#4B3A2A; stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round;}
+    .accent{stroke:#7A5A35; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .olive{stroke:#6F7045; fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round;}
+    .redfill{fill:#8A553C; stroke:#4B3A2A; stroke-width:1.5;}
+    
+  </style>
+  
+  <g transform="">
+
+    <path class="fill" d="M14 55V30l18-12 18 12v25Z"/>
+    <path class="thin" d="M32 13V5M27 9h10"/>
+    <path class="thin" d="M26 55V43a6 6 0 0 1 12 0v12"/>
+    <path class="thin" d="M18 34h9M37 34h9"/>
+    <path class="thin" d="M14 30 32 18l18 12"/>
+
+  </g>
+</svg>

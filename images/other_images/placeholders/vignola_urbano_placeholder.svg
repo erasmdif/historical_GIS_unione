@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Vignola urbana">
+  <rect width="1600" height="1000" fill="#f8fafc"/>
+  <rect x="56" y="56" width="1488" height="888" rx="32" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <path d="M120 700 C320 520, 480 720, 650 560 S1020 420, 1260 600 S1420 700, 1480 560" fill="none" stroke="#2563eb" stroke-width="12" stroke-linecap="round"/>
+  <path d="M160 820 C320 760, 430 860, 580 790 S900 720, 1100 790 S1320 860, 1460 760" fill="none" stroke="#0f766e" stroke-width="10" stroke-linecap="round" stroke-dasharray="14 18"/>
+  <path d="M160 250 L420 430 L650 330 L920 520 L1160 350 L1420 460" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="920" cy="520" r="18" fill="#ea580c"/>
+  <circle cx="650" cy="330" r="14" fill="#0f766e"/>
+  <circle cx="1160" cy="350" r="14" fill="#2563eb"/>
+  <text x="120" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#0f172a">Vignola urbana</text>
+  <text x="120" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="28" fill="#475569">Cappuccini • cimitero • ampliamento</text>
+  <rect x="120" y="278" width="250" height="54" rx="27" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="154" y="314" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#2563eb">placeholder visivo</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Edificio civile">
+  <title>Edificio civile</title>
+  <style>
+    .ink{stroke:#4B3A2A; fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}
+    .thin{stroke:#4B3A2A; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .fill{fill:#F3E5C3; stroke:#4B3A2A; stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round;}
+    .accent{stroke:#7A5A35; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .olive{stroke:#6F7045; fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round;}
+    .redfill{fill:#8A553C; stroke:#4B3A2A; stroke-width:1.5;}
+    
+  </style>
+  
+  <g transform="">
+
+    <path class="fill" d="M12 55V28h40v27Z"/>
+    <path class="fill" d="M8 29 32 12l24 17Z"/>
+    <path class="thin" d="M19 35h7v8h-7zM38 35h7v8h-7z"/>
+    <path class="thin" d="M28 55V42h8v13"/>
+    <path class="thin" d="M15 55h34"/>
+
+  </g>
+</svg>

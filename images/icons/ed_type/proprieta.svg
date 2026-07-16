@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Proprietà">
+  <title>Proprietà</title>
+  <style>
+    .ink{stroke:#4B3A2A; fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round;}
+    .thin{stroke:#4B3A2A; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .fill{fill:#F3E5C3; stroke:#4B3A2A; stroke-width:2.6; stroke-linecap:round; stroke-linejoin:round;}
+    .accent{stroke:#7A5A35; fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;}
+    .olive{stroke:#6F7045; fill:none; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round;}
+    .redfill{fill:#8A553C; stroke:#4B3A2A; stroke-width:1.5;}
+    
+  </style>
+  
+  <g transform="">
+
+    <path class="fill" d="M18 10h24l8 8v34a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4V14a4 4 0 0 1 4-4Z"/>
+    <path class="thin" d="M42 10v10h9"/>
+    <path class="thin" d="M22 25h20M22 33h20M22 41h12"/>
+    <circle class="redfill" cx="42" cy="45" r="6"/>
+    <path class="thin" d="M38 52l-3 7M46 52l3 7"/>
+
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img" aria-label="Persona segnaposto">
+  <rect width="300" height="360" rx="24" fill="#ede7da"/>
+  <ellipse cx="150" cy="176" rx="112" ry="140" fill="#f4efe5" stroke="#934123" stroke-width="5"/>
+  <circle cx="150" cy="143" r="62" fill="#24323d" opacity=".92"/>
+  <path d="M75 337c7-71 34-105 75-105s68 34 75 105Z" fill="#24323d" opacity=".92"/>
+  <path d="M122 223h56v48h-56z" fill="#e7d8bd"/>
+</svg>

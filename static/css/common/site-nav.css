@@ -1,0 +1,35 @@
+:root{
+  --site-nav-h: 72px;
+  --site-nav-bg: rgba(255,255,255,.92);
+  --site-nav-border: rgba(15,23,42,.10);
+  --site-nav-text: #0f172a;
+  --site-nav-muted: #64748b;
+  --site-nav-accent: #2563eb;
+  --site-nav-accent-2: #ea580c;
+  --site-nav-shadow: 0 10px 24px rgba(15,23,42,.05);
+}
+body.has-site-nav{ padding-top: var(--site-nav-h); }
+body.has-site-nav.webgis-page #app,
+body.has-site-nav.detail-page #detail-app{ height: calc(100vh - var(--site-nav-h)); }
+.site-nav{ position: fixed; inset: 0 0 auto 0; height: var(--site-nav-h); z-index: 10000; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); background: var(--site-nav-bg); border-bottom: 1px solid var(--site-nav-border); box-shadow: var(--site-nav-shadow); }
+.site-nav__inner{ width: min(1220px, calc(100% - 28px)); height: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.site-nav__brand{ display: inline-flex; align-items: center; gap: 12px; color: var(--site-nav-text); text-decoration: none; min-width: 0; }
+.site-nav__brand-mark{ width: 42px; height: 42px; border-radius: 14px; display: grid; place-items: center; background: #fff; border: 1px solid rgba(15,23,42,.08); color: var(--site-nav-accent); font-size: 1.15rem; }
+.site-nav__brand-copy{ display: flex; flex-direction: column; min-width: 0; }
+.site-nav__eyebrow{ font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--site-nav-muted); }
+.site-nav__title{ font-size: .98rem; font-weight: 800; letter-spacing: -.01em; color: var(--site-nav-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.site-nav__links{ display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.site-nav__link{ display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 0 14px; border-radius: 999px; text-decoration: none; color: var(--site-nav-text); border: 1px solid transparent; font-weight: 700; transition: transform .18s ease, background .18s ease, border-color .18s ease, color .18s ease; }
+.site-nav__link:hover{ transform: translateY(-1px); background: rgba(255,255,255,.86); border-color: rgba(15,23,42,.10); }
+.site-nav__link.is-active{ background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.16); color: var(--site-nav-accent); }
+.site-nav__link i{ font-size: 1rem; }
+body.webgis-page .site-nav,
+body.detail-page .site-nav{ --site-nav-bg: rgba(10,16,30,.82); --site-nav-border: rgba(148,163,184,.16); --site-nav-text: #e5e7eb; --site-nav-muted: #94a3b8; --site-nav-accent: #f59e0b; --site-nav-shadow: 0 10px 28px rgba(0,0,0,.28); }
+body.webgis-page .site-nav__brand-mark,
+body.detail-page .site-nav__brand-mark{ background: rgba(15,23,42,.92); border-color: rgba(148,163,184,.14); }
+body.webgis-page .site-nav__link:hover,
+body.detail-page .site-nav__link:hover{ background: rgba(15,23,42,.62); border-color: rgba(148,163,184,.18); }
+body.webgis-page .site-nav__link.is-active,
+body.detail-page .site-nav__link.is-active{ color: #fed7aa; background: rgba(194,65,12,.22); border-color: rgba(249,115,22,.22); }
+@media (max-width: 860px){ .site-nav__inner{ width: min(100%, calc(100% - 18px)); gap: 10px; } .site-nav__title{ max-width: 170px; } .site-nav__link{ padding: 0 12px; min-height: 38px; } }
+@media (max-width: 640px){ :root{ --site-nav-h: 64px; } .site-nav__eyebrow,.site-nav__title{ display:none; } .site-nav__brand-mark{ width:38px; height:38px; border-radius:12px; } .site-nav__links{ gap:6px; } .site-nav__link{ width:40px; min-width:40px; padding:0; justify-content:center; } .site-nav__link span{ display:none; } }

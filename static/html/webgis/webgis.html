@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <base href="../../../" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebGIS · Atlante Storico Digitale</title>
+
+  <!-- Leaflet & MarkerCluster CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+
+  <!-- Stili locali -->
+  <link rel="stylesheet" href="static/css/common/site-nav.css" />
+  <link rel="stylesheet" href="static/css/webgis/style.css" />
+</head>
+<body class="has-site-nav webgis-page" data-section="webgis" data-nav-title="Atlante Storico Digitale · WebGIS">
+  <div id="site-nav-root"></div>
+<div id="app">
+    <div id="map"></div>
+
+    <aside id="dashboard" class="sidebar">
+      <div class="sb-header">
+        <div class="sb-title">Carte storiche</div>
+        <button id="btn-clear" class="btn clear" title="Mostra tutti i toponimi">Mostra tutti</button>
+      </div>
+
+      <div class="sb-subtitle" id="active-filter" hidden>
+        Filtro attivo: <span id="filter-label"></span>
+      </div>
+
+      <div class="sb-search">
+        <div class="sb-search-row">
+          <input id="map-search" type="search" placeholder="Cerca mappa o comune..." />
+          <button id="btn-toponyms" class="btn sm ghost" title="Sfoglia comuni">Comuni</button>
+        </div>
+
+        <div id="maps-tools" class="sb-tools"></div>
+      </div>
+
+      <div class="sb-content">
+        <div id="maps-peek" class="mappeek" hidden></div>
+        <div id="maps-grid" class="cards is-list"></div>
+        <section id="geoportale-catalog" class="geoportal-box" aria-label="Raccolte del Geoportale Emilia-Romagna"></section>
+      </div>
+      <div class="sb-footer">
+        <small>Dati locali: <code>data/maps.csv</code> · Associazioni: <code>data/maps_places.csv</code> · Raccolte esterne: Geoportale Emilia-Romagna</small>
+      </div>
+    </aside>
+  </div>
+
+  </div> <!-- fine #app -->
+
+  <!-- MODALE COMUNI (prima degli script!) -->
+  <div id="toponyms-modal" class="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="toponyms-title">
+
+      <div class="modal-head">
+        <div id="toponyms-title" class="modal-title">Comuni</div>
+        <button id="toponyms-close" class="btn sm ghost" type="button">Chiudi</button>
+      </div>
+
+      <div id="toponyms-body" class="modal-body">
+        <div class="modal-tools">
+          <div class="modal-search">
+            <input id="toponyms-search" type="search" placeholder="Cerca toponimo..." autocomplete="off" />
+            <div id="toponyms-suggest" class="suggest" hidden></div>
+            <div id="toponyms-count" class="muted" style="margin-top:6px;"></div>
+          </div>
+
+          <div id="toponyms-legend" class="legend-mini"></div>
+        </div>
+
+        <div id="toponyms-list" class="modal-list"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Leaflet & MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- GeoTIFF -->
+  <script src="https://unpkg.com/georaster"></script>
+  <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
+
+  <!-- i tuoi script -->
+  <script src="static/js/common/site-nav.js"></script>
+  <script src="static/js/webgis/app.js"></script>
+  <script src="static/js/webgis/dashboard.js"></script>
+</body>
+

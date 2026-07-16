@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 360" role="img" aria-label="Ritratto maschile segnaposto">
+  <rect width="300" height="360" rx="24" fill="#ede7da"/>
+  <ellipse cx="150" cy="176" rx="112" ry="140" fill="#f4efe5" stroke="#934123" stroke-width="5"/>
+  <path d="M92 139c3-53 26-80 63-80 43 0 70 29 65 83-17-18-43-30-76-29-20 0-37 9-52 26Z" fill="#24323d"/>
+  <path d="M111 124c-12 17-17 40-13 64 5 30 26 54 52 54s47-24 52-54c4-24-1-47-13-64-18-10-60-10-78 0Z" fill="#e7d8bd"/>
+  <path d="M127 227v30l23 27 23-27v-30" fill="#e7d8bd"/>
+  <path d="M64 338c7-50 38-80 75-87l11 33 11-33c37 7 68 37 75 87Z" fill="#24323d"/>
+  <path d="M109 264l41 20 41-20-12 55h-58Z" fill="#fbf8f1"/>
+  <path d="M142 285h16l11 53h-38Z" fill="#934123"/>
+</svg>
