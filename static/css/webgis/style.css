@@ -2979,7 +2979,20 @@ body.webgis-page .study-panel{
   overflow-y: auto !important;
   overflow-x: hidden !important;
   scrollbar-width: thin;
+  scrollbar-color: rgba(37,99,235,.42) rgba(37,99,235,.06);
 }
+.study-panel .sp-checklist::-webkit-scrollbar,
+.study-panel .sp-content-panel[data-view-pane="info"]::-webkit-scrollbar,
+.study-panel .sp-mapinfo-card::-webkit-scrollbar,
+.study-modal-body::-webkit-scrollbar{ width:8px; }
+.study-panel .sp-checklist::-webkit-scrollbar-track,
+.study-panel .sp-content-panel[data-view-pane="info"]::-webkit-scrollbar-track,
+.study-panel .sp-mapinfo-card::-webkit-scrollbar-track,
+.study-modal-body::-webkit-scrollbar-track{ background:rgba(37,99,235,.055); border-radius:999px; }
+.study-panel .sp-checklist::-webkit-scrollbar-thumb,
+.study-panel .sp-content-panel[data-view-pane="info"]::-webkit-scrollbar-thumb,
+.study-panel .sp-mapinfo-card::-webkit-scrollbar-thumb,
+.study-modal-body::-webkit-scrollbar-thumb{ border:2px solid transparent; border-radius:999px; background:rgba(37,99,235,.42); background-clip:padding-box; }
 .study-panel .sp-checklist--iconic{
   max-height: 306px !important;
   overflow-x: hidden !important;

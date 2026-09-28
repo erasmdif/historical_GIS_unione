@@ -24,6 +24,7 @@
 
     <nav class="rail-nav" aria-label="Sezioni della homepage">
       <a class="rail-link is-active" href="#home" data-section-link="home"><i class="bi bi-house-door"></i><span>Home</span></a>
+      <a class="rail-link" href="#archivi-home" data-section-link="archivi-home"><i class="bi bi-map"></i><span>Archivi e basi cartografiche</span></a>
       <a class="rail-link" href="#progetto" data-section-link="progetto"><i class="bi bi-compass"></i><span>Il progetto</span></a>
       <a class="rail-link" href="#patrimonio" data-section-link="patrimonio"><i class="bi bi-grid-3x2-gap"></i><span>Esplora</span></a>
       <a class="rail-link" href="#strati" data-section-link="strati"><i class="bi bi-layers"></i><span>Il territorio</span></a>
@@ -34,9 +35,11 @@
     <nav class="rail-nav rail-nav--external" aria-label="Accessi al progetto">
       <a class="rail-link" href="static/html/webgis/webgis.html"><i class="bi bi-globe2"></i><span>WebGIS</span></a>
       <a class="rail-link" href="static/html/tag_viewer/dettaglio.html"><i class="bi bi-tags"></i><span>Tag</span></a>
+      <a class="rail-link" href="archivi.html"><i class="bi bi-archive"></i><span>Archivi</span></a>
       <a class="rail-link" href="static/html/gallery/archivi.html"><i class="bi bi-collection"></i><span>Galleria</span></a>
       <a class="rail-link" href="static/html/gallery/archivi.html?view=families"><i class="bi bi-people"></i><span>Famiglie</span></a>
       <a class="rail-link" href="static/html/gallery/archivi.html?view=city"><i class="bi bi-buildings"></i><span>Città nel tempo</span></a>
+      <a class="rail-link" href="static/html/wiki/index.html"><i class="bi bi-journal-richtext"></i><span>Guida / Wiki</span></a>
     </nav>
 
     <p class="rail-quote">«Le carte del passato raccontano i legami che hanno plasmato il territorio.»</p>
@@ -73,6 +76,26 @@
         </div>
       </div>
     </header>
+
+    <section id="archivi-home" class="home-section home-archives-section" data-theme="archive">
+      <div class="section-inner home-archives-layout">
+        <div class="home-archives-copy reveal">
+          <p class="eyebrow">Provenienze e contesti</p>
+          <h2>Le carte tornano<br />ai loro archivi</h2>
+          <p>Il patrimonio cartografico dell’Atlante proviene dall’Archivio di Stato di Modena e dagli archivi storici comunali delle Terre di Castelli. La nuova sezione ricostruisce provenienze, fondi e relazioni, collegando ogni mappa all’istituzione e alla comunità che l’ha prodotta e conservata.</p>
+          <div class="home-archives-list" aria-label="Principali nuclei archivistici">
+            <span><i class="bi bi-bank"></i> Archivio di Stato di Modena</span>
+            <span><i class="bi bi-buildings"></i> Otto archivi storici comunali</span>
+          </div>
+          <a class="button button--primary" href="archivi.html"><i class="bi bi-archive"></i> Entra negli archivi</a>
+        </div>
+        <div class="home-archives-visual reveal" data-delay="90">
+          <img class="home-archives-visual__main" src="images/other_images/archives/portal/images/archive_open_book.png" alt="Libro d'archivio aperto con carte e strumenti di consultazione" />
+          <img class="home-archives-visual__tools" src="images/other_images/archives/portal/images/archive_tools.png" alt="" />
+          <span>Fondo</span><span>Serie</span><span>Unità</span>
+        </div>
+      </div>
+    </section>
 
     <section id="progetto" class="home-section project-section" data-theme="project">
       <div class="section-inner">
@@ -132,24 +155,24 @@
               <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-globe2"></i> Esplorazione geografica</span><h3>Il territorio sulla mappa</h3><p>Consulta comuni, archivi e carte georeferenziate attraverso una vista territoriale unitaria.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
             </a>
 
-            <a class="feature-panel feature-panel--historical" href="static/html/webgis/webgis.html">
+            <a class="feature-panel feature-panel--archives" href="archivi.html">
               <span class="feature-number">02</span>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-archive"></i> Percorsi documentari</span><h3>Collezioni e racconti d’archivio</h3><p>Ritrova le carte nei loro fondi di provenienza ed esplora gli archivi delle comunità.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+            </a>
+
+            <a class="feature-panel feature-panel--historical" href="static/html/webgis/webgis.html">
+              <span class="feature-number">03</span>
               <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-layers"></i> Cartografia interattiva</span><h3>Dentro la carta storica</h3><p>Sovrapponi il documento al territorio attuale, regola i livelli e interroga proprietari e categorie.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
             </a>
 
             <a class="feature-panel feature-panel--tagged" id="feature-tagged-link" href="static/html/tag_viewer/dettaglio.html">
-              <span class="feature-number">03</span>
+              <span class="feature-number">04</span>
               <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-tags"></i> Immagini annotate</span><h3>Luoghi dentro le mappe</h3><p>Esplora immagini ad alta risoluzione e apri le schede dei toponimi direttamente dalla tavola.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
             </a>
 
             <a class="feature-panel feature-panel--families" href="static/html/gallery/archivi.html?view=families">
-              <span class="feature-number">04</span>
-              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-people"></i> Storie patrimoniali</span><h3>Famiglie, persone, possedimenti</h3><p>Segui i nuclei familiari attraverso luoghi, mappe, relazioni e trasformazioni nel tempo.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
-            </a>
-
-            <a class="feature-panel feature-panel--archives" href="static/html/gallery/archivi.html?view=asmo">
               <span class="feature-number">05</span>
-              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-archive"></i> Percorsi documentari</span><h3>Collezioni e racconti d’archivio</h3><p>Sfoglia corpus cartografici, volumi digitalizzati e approfondimenti narrativi.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
+              <div class="feature-copy"><span class="feature-kicker"><i class="bi bi-people"></i> Storie patrimoniali</span><h3>Famiglie, persone, possedimenti</h3><p>Segui i nuclei familiari attraverso luoghi, mappe, relazioni e trasformazioni nel tempo.</p><span class="feature-arrow"><i class="bi bi-arrow-right"></i></span></div>
             </a>
 
             <a class="feature-panel feature-panel--city" href="static/html/gallery/archivi.html?view=city">

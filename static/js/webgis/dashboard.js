@@ -167,7 +167,7 @@ function createMapCard(mapRec, onFilterClick) {
     btnTopGeo.addEventListener('click', (ev) => {
       ev.stopPropagation();
       window.dispatchEvent(new CustomEvent('maps:toggleGeoOverlay', {
-        detail: { fid: mapRec.fid, url: geoUrl }
+        detail: { fid: mapRec.fid, url: geoUrl, tileCode: mapCode(mapRec) }
       }));
     });
     quick.appendChild(btnTopGeo);
@@ -195,7 +195,7 @@ function createMapCard(mapRec, onFilterClick) {
         ev.stopPropagation();
         if (txt.includes('dettaglio')) openDetail();
         else window.dispatchEvent(new CustomEvent('maps:toggleGeoOverlay', {
-          detail: { fid: mapRec.fid, url: geoUrl }
+          detail: { fid: mapRec.fid, url: geoUrl, tileCode: mapCode(mapRec) }
         }));
       });
     });
@@ -242,7 +242,7 @@ function createMapCard(mapRec, onFilterClick) {
     btnGeo.addEventListener('click', (ev) => {
       ev.stopPropagation();
       window.dispatchEvent(new CustomEvent('maps:toggleGeoOverlay', {
-        detail: { fid: mapRec.fid, url: geoUrl }
+        detail: { fid: mapRec.fid, url: geoUrl, tileCode: mapCode(mapRec) }
       }));
     });
     actions.appendChild(btnGeo);
@@ -546,6 +546,7 @@ function createMapCard(mapRec, onFilterClick) {
       year: mapRec.year,
       descrizione: mapRec.descrizione,
       cartiglio: mapRec.cartiglio,
+      tileCode: mapCode(mapRec), // cartella remota su GitHub Pages (es. GM_10)
       geoCandidates,          // lista di URL raster (estensioni fallback)
       geoUrl: geoCandidates[0] || '', // retro-compat
       polygonFids: polyFids,  // fid dei poligoni da mostrare
@@ -1053,8 +1054,8 @@ function createMapCard(mapRec, onFilterClick) {
       keyboard: false,
       tap: true
     });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-      attribution: ''
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
     }).addTo(territoryMap);
     territoryMap.setView([44.5, 10.9], 7);
     setTimeout(() => territoryMap?.invalidateSize(), 80);

@@ -21,11 +21,42 @@
   <!-- Stili locali -->
   <link rel="stylesheet" href="static/css/common/site-nav.css" />
   <link rel="stylesheet" href="static/css/webgis/style.css" />
+  <link rel="stylesheet" href="static/css/webgis/historical.css" />
 </head>
 <body class="has-site-nav webgis-page" data-section="webgis" data-nav-title="Atlante Storico Digitale · WebGIS">
   <div id="site-nav-root"></div>
 <div id="app">
-    <div id="map"></div>
+    <main id="map-stage" class="map-stage">
+      <div class="historical-view-stage">
+        <div class="historical-view-switch" role="group" aria-label="Visualizzazione storico-amministrativa">
+          <button type="button" class="is-active" data-historical-view="map" aria-pressed="true">
+            <i class="bi bi-map"></i><span>Mappa</span>
+          </button>
+          <button type="button" data-historical-view="infographic" aria-pressed="false">
+            <i class="bi bi-diagram-3"></i><span>Gerarchie</span>
+          </button>
+        </div>
+
+        <section class="historical-map-shell" data-historical-panel="map" aria-label="Mappa storico-amministrativa">
+          <div id="map"></div>
+          <div id="historical-map-status" class="historical-map-status" aria-live="polite"></div>
+        </section>
+
+        <section id="historical-infographic" class="historical-infographic" data-historical-panel="infographic" hidden aria-live="polite"></section>
+      </div>
+
+      <section id="historical-timeline" class="historical-timeline" aria-label="Linea del tempo delle giurisdizioni">
+        <div class="historical-timeline__heading">
+          <div>
+            <span class="historical-timeline__eyebrow">Assetti territoriali</span>
+            <h2>Linea del tempo</h2>
+          </div>
+          <p id="historical-timeline-note">Seleziona un anno per cambiare geometrie e aprire la gerarchia amministrativa.</p>
+        </div>
+        <div id="historical-year-switcher" class="historical-year-switcher" role="tablist" aria-label="Anni disponibili"></div>
+      </section>
+
+    </main>
 
     <aside id="dashboard" class="sidebar">
       <div class="sb-header">
@@ -55,8 +86,6 @@
         <small>Dati locali: <code>data/maps.csv</code> · Associazioni: <code>data/maps_places.csv</code> · Raccolte esterne: Geoportale Emilia-Romagna</small>
       </div>
     </aside>
-  </div>
-
   </div> <!-- fine #app -->
 
   <!-- MODALE COMUNI (prima degli script!) -->
@@ -85,6 +114,23 @@
     </div>
   </div>
 
+  <!-- MODALE GIURISDIZIONI STORICHE -->
+  <div id="historical-modal" class="historical-modal" hidden>
+    <div class="historical-modal__backdrop" data-historical-close></div>
+    <article class="historical-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="historical-modal-title">
+      <header class="historical-modal__head">
+        <div>
+          <span id="historical-modal-kicker" class="historical-modal__kicker"></span>
+          <h2 id="historical-modal-title"></h2>
+        </div>
+        <button type="button" class="historical-modal__close" data-historical-close aria-label="Chiudi la scheda">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </header>
+      <div id="historical-modal-body" class="historical-modal__body"></div>
+    </article>
+  </div>
+
   <!-- Leaflet & MarkerCluster JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
@@ -99,5 +145,5 @@
   <script src="static/js/common/site-nav.js"></script>
   <script src="static/js/webgis/app.js"></script>
   <script src="static/js/webgis/dashboard.js"></script>
+  <script src="static/js/webgis/historical.js"></script>
 </body>
-

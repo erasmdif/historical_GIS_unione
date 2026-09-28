@@ -17,7 +17,9 @@
           <a class="site-nav__link ${active === 'home' ? 'is-active' : ''}" href="static/html/homepage/index.html"><i class="bi bi-house-door"></i><span>Home</span></a>
           <a class="site-nav__link ${active === 'webgis' ? 'is-active' : ''}" href="static/html/webgis/webgis.html"><i class="bi bi-globe2"></i><span>WebGIS</span></a>
           <a class="site-nav__link ${active === 'tagged' || active === 'tag' ? 'is-active' : ''}" href="static/html/tag_viewer/dettaglio.html"><i class="bi bi-tags"></i><span>Tag</span></a>
-          <a class="site-nav__link ${active === 'archives' || active === 'gallery' ? 'is-active' : ''}" href="static/html/gallery/archivi.html"><i class="bi bi-collection"></i><span>Galleria</span></a>
+          <a class="site-nav__link ${active === 'archives' ? 'is-active' : ''}" href="archivi.html"><i class="bi bi-archive"></i><span>Archivi</span></a>
+          <a class="site-nav__link ${active === 'gallery' ? 'is-active' : ''}" href="static/html/gallery/archivi.html"><i class="bi bi-collection"></i><span>Galleria</span></a>
+          <a class="site-nav__link ${active === 'wiki' ? 'is-active' : ''}" href="static/html/wiki/index.html"><i class="bi bi-journal-richtext"></i><span>Guida</span></a>
         </div>
       </div>
     </nav>`;

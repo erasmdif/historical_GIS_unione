@@ -55,9 +55,6 @@ function iconPathForTipologia(t){
 
 // === BASEMAPS ===
 const baseLayers = {
-  'CartoDB Positron': L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OSM contributors &copy; CARTO'
-  }),
   'OpenStreetMap': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OSM contributors'
   }),
@@ -69,7 +66,7 @@ const baseLayers = {
 const map = L.map('map', {
   center: [43.8, 11.2],
   zoom: 7,
-  layers: [baseLayers['CartoDB Positron']]
+  layers: [baseLayers['OpenStreetMap']]
 });
 L.control.layers(baseLayers, null, { collapsed: true }).addTo(map);
 
@@ -875,7 +872,9 @@ fetch(DATA_URL)
       }
     });
 
-    rebuildMarkers({ fitBounds: true });
+    // La vista iniziale è gestita dal modulo storico (2006 + 2001).
+    // I toponimi restano caricati, ma non forzano più un fitBounds globale.
+    rebuildMarkers({ fitBounds: false });
     mountLegendControl();
   })
   .catch(err => {
@@ -884,11 +883,24 @@ fetch(DATA_URL)
   });
 
 // ============================================================================
-// GEO-TIFF OVERLAY (toggle da dashboard.js)
+// OVERLAY CARTOGRAFICO (tile remote con fallback GeoTIFF locale)
 // ============================================================================
+const REMOTE_TILES = Object.freeze({
+  // Nel repository le piramidi sono dentro una cartella omonima aggiuntiva.
+  baseUrl: 'https://erasmdif.github.io/terre_unione_reosurces/terre_unione_reosurces/',
+  metadataFile: 'leaflet.html',
+  defaultMinZoom: 12,
+  defaultMaxZoom: 19,
+  // geotiff_tile_builder.py invoca gdal2tiles con --xyz.
+  defaultTms: false,
+  tileExtension: 'png'
+});
+
 let currentGeoLayer = null;
 let currentGeoFid = null;
 let currentGeoOpacity = 0.92;
+let geoOverlayRequestId = 0;
+
 function setGeoTiffOpacity(value){
   const v = Math.max(0, Math.min(1, Number(value)));
   currentGeoOpacity = Number.isFinite(v) ? v : 0.92;
@@ -898,6 +910,104 @@ function setGeoTiffOpacity(value){
     currentGeoLayer.options.opacity = currentGeoOpacity;
     try { currentGeoLayer.redraw?.(); } catch {}
   }
+}
+
+function normalizedTileCode(value){
+  return String(value || '').trim();
+}
+
+function remoteTileFolderUrl(tileCode){
+  const code = normalizedTileCode(tileCode);
+  if (!code) return '';
+  return `${REMOTE_TILES.baseUrl}${encodeURIComponent(code)}/`;
+}
+
+function parseRemoteTileMetadata(html, folderUrl){
+  const fitBounds = String(html || '').match(
+    /fitBounds\s*\(\s*\[\s*\[\s*([-+\d.eE]+)\s*,\s*([-+\d.eE]+)\s*\]\s*,\s*\[\s*([-+\d.eE]+)\s*,\s*([-+\d.eE]+)\s*\]/i
+  );
+  const bounds = fitBounds
+    ? L.latLngBounds(
+        [Number(fitBounds[1]), Number(fitBounds[2])],
+        [Number(fitBounds[3]), Number(fitBounds[4])]
+      )
+    : null;
+  const minMatch = String(html || '').match(/minZoom\s*:\s*(\d+)/i);
+  const maxMatch = String(html || '').match(/maxZoom\s*:\s*(\d+)/i);
+  const tmsMatch = String(html || '').match(/tms\s*:\s*(true|false)/i);
+  return {
+    available: true,
+    folderUrl,
+    bounds: bounds?.isValid() ? bounds : null,
+    minZoom: minMatch ? Number(minMatch[1]) : REMOTE_TILES.defaultMinZoom,
+    maxZoom: maxMatch ? Number(maxMatch[1]) : REMOTE_TILES.defaultMaxZoom,
+    tms: tmsMatch ? tmsMatch[1].toLowerCase() === 'true' : REMOTE_TILES.defaultTms
+  };
+}
+
+const __remoteTileMetadataCache = new Map();
+async function getRemoteTileMetadata(tileCode){
+  const code = normalizedTileCode(tileCode);
+  if (!code) return { available: false };
+  if (__remoteTileMetadataCache.has(code)) return __remoteTileMetadataCache.get(code);
+
+  const promise = (async () => {
+    const folderUrl = remoteTileFolderUrl(code);
+    try {
+      const response = await fetch(`${folderUrl}${REMOTE_TILES.metadataFile}`, {
+        method: 'GET',
+        mode: 'cors',
+        cache: 'no-store'
+      });
+      if (!response.ok) return { available: false, status: response.status, folderUrl };
+      return parseRemoteTileMetadata(await response.text(), folderUrl);
+    } catch (error) {
+      console.info(`[tiles] ${code}: repository remota non raggiungibile, uso il raster locale.`, error);
+      return { available: false, folderUrl, error };
+    }
+  })();
+
+  __remoteTileMetadataCache.set(code, promise);
+  return promise;
+}
+
+function createRemoteTileLayer(metadata, opacity){
+  const template = `${metadata.folderUrl}{z}/{x}/{y}.${REMOTE_TILES.tileExtension}`;
+  const layer = L.tileLayer(template, {
+    pane: 'geotiffPane',
+    opacity,
+    tms: metadata.tms,
+    minNativeZoom: metadata.minZoom,
+    maxNativeZoom: metadata.maxZoom,
+    maxZoom: Math.max(22, metadata.maxZoom),
+    bounds: metadata.bounds || undefined,
+    noWrap: true,
+    crossOrigin: true,
+    keepBuffer: 3,
+    updateWhenIdle: true,
+    attribution: 'Carta storica: Terre di Castelli'
+  });
+  layer._terreUnioneSource = 'remote-tiles';
+  layer._terreUnioneBounds = metadata.bounds || null;
+  layer.getBounds = () => layer._terreUnioneBounds;
+  return layer;
+}
+
+function activateGeoOverlayLayer(layer, fid, opacity, fit, requestId, source){
+  if (requestId !== geoOverlayRequestId) return null;
+  if (currentGeoLayer) map.removeLayer(currentGeoLayer);
+  layer.addTo(map);
+  currentGeoLayer = layer;
+  currentGeoFid = fid;
+  currentGeoOpacity = opacity;
+
+  const bounds = layer.getBounds?.();
+  if (fit && bounds?.isValid?.()) map.fitBounds(bounds.pad(0.05));
+
+  window.dispatchEvent(new CustomEvent('maps:geoOverlayChanged', {
+    detail: { activeFid: fid, source }
+  }));
+  return layer;
 }
 function ensureWebgisLoading(){
   let el = document.getElementById('webgis-loading');
@@ -960,8 +1070,7 @@ async function getCachedGeoRaster(candidates){
   return promise;
 }
 
-// url può essere una stringa singola o un array di candidati
-async function addGeoTiffOverlay(url, fid, opts = {}) {
+async function addLocalGeoTiffOverlay(url, fid, opts = {}, requestId = geoOverlayRequestId) {
   const { fit = true, opacity = currentGeoOpacity } = opts;
   try {
     const { parseFn, LayerCtor } = getGeoRasterGlobals();
@@ -973,6 +1082,7 @@ async function addGeoTiffOverlay(url, fid, opts = {}) {
 
     const candidates = Array.isArray(url) ? url : [url];
     const { georaster } = await getCachedGeoRaster(candidates);
+    if (requestId !== geoOverlayRequestId) return null;
 
     const layer = new LayerCtor({
       georaster,
@@ -996,19 +1106,10 @@ async function addGeoTiffOverlay(url, fid, opts = {}) {
       }
     });
 
-    if (currentGeoLayer) map.removeLayer(currentGeoLayer);
-
-    layer.addTo(map);
-    currentGeoLayer = layer;
-    currentGeoFid = fid;
-    currentGeoOpacity = opacity;
-
-    const b = layer.getBounds();
-    if (fit && b && b.isValid()) map.fitBounds(b.pad(0.05));
-
-    window.dispatchEvent(new CustomEvent('maps:geoOverlayChanged', { detail: { activeFid: fid } }));
-    return layer;
+    layer._terreUnioneSource = 'local-geotiff';
+    return activateGeoOverlayLayer(layer, fid, opacity, fit, requestId, 'local-geotiff');
   } catch (err) {
+    if (requestId !== geoOverlayRequestId) return null;
     console.error('Errore nel caricamento del GeoTIFF', err);
     alert('Impossibile caricare il GeoTIFF (verifica CORS/COG): ' + (err?.message || err));
     if (currentGeoLayer) { map.removeLayer(currentGeoLayer); currentGeoLayer = null; }
@@ -1018,7 +1119,59 @@ async function addGeoTiffOverlay(url, fid, opts = {}) {
   }
 }
 
+// url può essere una stringa singola o un array di candidati locali.
+// Se opts.tileCode è valorizzato, prova prima:
+// https://erasmdif.github.io/terre_unione_reosurces/terre_unione_reosurces/<SIGLA>/{z}/{x}/{y}.png
+async function addGeoTiffOverlay(url, fid, opts = {}) {
+  const { fit = true, opacity = currentGeoOpacity, tileCode = '' } = opts;
+  const candidates = (Array.isArray(url) ? url : [url]).filter(Boolean);
+  const requestId = ++geoOverlayRequestId;
+  const code = normalizedTileCode(tileCode);
+
+  if (code) {
+    const metadata = await getRemoteTileMetadata(code);
+    if (requestId !== geoOverlayRequestId) return null;
+    if (metadata.available) {
+      const tileLayer = createRemoteTileLayer(metadata, opacity);
+      const activated = activateGeoOverlayLayer(tileLayer, fid, opacity, fit, requestId, 'remote-tiles');
+      if (!activated) return null;
+
+      let loadedTiles = 0;
+      let failedTiles = 0;
+      let fallbackStarted = false;
+      let fallbackTimer = null;
+      tileLayer.on('tileload', () => {
+        loadedTiles += 1;
+        if (fallbackTimer) {
+          window.clearTimeout(fallbackTimer);
+          fallbackTimer = null;
+        }
+      });
+      tileLayer.on('tileerror', () => {
+        failedTiles += 1;
+        if (fallbackStarted || fallbackTimer || loadedTiles > 0 || failedTiles < 3) return;
+        // Alcune tile di bordo possono legittimamente non esistere. Attendiamo
+        // che almeno una tile valida abbia il tempo di caricarsi prima del fallback.
+        fallbackTimer = window.setTimeout(() => {
+          fallbackTimer = null;
+          if (fallbackStarted || loadedTiles > 0) return;
+          if (currentGeoLayer !== tileLayer || requestId !== geoOverlayRequestId) return;
+          fallbackStarted = true;
+          console.warn(`[tiles] ${code}: nessuna tile valida caricata; ripiego sul GeoTIFF locale.`);
+          addLocalGeoTiffOverlay(candidates, fid, { fit, opacity }, requestId);
+        }, 1800);
+      });
+
+      console.info(`[tiles] ${code}: overlay remoto attivo (${metadata.tms ? 'TMS' : 'XYZ'}, zoom ${metadata.minZoom}–${metadata.maxZoom}).`);
+      return tileLayer;
+    }
+  }
+
+  return addLocalGeoTiffOverlay(candidates, fid, { fit, opacity }, requestId);
+}
+
 function clearGeoTiffOverlay() {
+  geoOverlayRequestId += 1;
   if (currentGeoLayer) {
     map.removeLayer(currentGeoLayer);
     currentGeoLayer = null;
@@ -1029,13 +1182,13 @@ function clearGeoTiffOverlay() {
 
 // Listener dal pannello (toggle)
 window.addEventListener('maps:toggleGeoOverlay', (e) => {
-  const { fid, url } = e.detail || {};
+  const { fid, url, tileCode } = e.detail || {};
   if (!fid || !url) return;
 
   if (currentGeoLayer && String(currentGeoFid) === String(fid)) {
     clearGeoTiffOverlay();
   } else {
-    addGeoTiffOverlay(url, fid);
+    addGeoTiffOverlay(url, fid, { tileCode });
   }
 });
 
@@ -2040,6 +2193,7 @@ function bindStudyPanelEvents(panel){
 }
 function closeStudyMode(){
   if (!studyState) return;
+  const returnView = studyState.returnView;
   try { if (studyState.layer) map.removeLayer(studyState.layer); } catch {}
   try { if (studyState.labelLayer) map.removeLayer(studyState.labelLayer); } catch {}
   try { if (studyState.centroidLayer) map.removeLayer(studyState.centroidLayer); } catch {}
@@ -2058,6 +2212,21 @@ function closeStudyMode(){
     try { if (modal._miniMap) { modal._miniMap.remove(); modal._miniMap = null; } } catch {}
   }
   studyState = null;
+  if (returnView?.center && Number.isFinite(returnView.zoom)) {
+    window.setTimeout(() => {
+      map.invalidateSize();
+      map.setView(returnView.center, returnView.zoom, { animate: true });
+    }, 40);
+  }
+}
+
+function confirmCloseStudyMode(){
+  const confirmed = window.confirm(
+    'Stai per uscire dalla modalità di studio: la carta storica e i relativi livelli interattivi verranno rimossi dalla mappa.\n\n' +
+    'Se desideri soltanto liberare spazio, puoi comprimere il pannello con il comando laterale senza interrompere la consultazione.\n\n' +
+    'Vuoi chiudere comunque la visualizzazione?'
+  );
+  if (confirmed) closeStudyMode();
 }
 async function openStudyMode(detail){
   if (studyState && String(studyState.detail?.fid) === String(detail.fid)) {
@@ -2070,14 +2239,18 @@ async function openStudyMode(detail){
   }
   if (studyState) closeStudyMode();
 
-  studyState = { detail, layer: null, polyByFid: new Map(), polyFeatures: [], labelLayer: null, labelByFid: new Map(), leaderByFid: new Map(), centroidLayer: null, labelEligible: new Set(), familyIdsByPlace: new Map(), familiesAgg: new Map(), selectedTypeKeys: new Set(), selectedFamilyIds: new Set(), hoveredPolyFid: null, activePolyFid: null, dashboardCollapsed: true, rebuildLabelsHandler: null, showPolygons: true, showLabels: false, mapOpacity: 0.92, polyOpacity: 0.65, labelOpacity: 0.68 };
+  studyState = { detail, layer: null, polyByFid: new Map(), polyFeatures: [], labelLayer: null, labelByFid: new Map(), leaderByFid: new Map(), centroidLayer: null, labelEligible: new Set(), familyIdsByPlace: new Map(), familiesAgg: new Map(), selectedTypeKeys: new Set(), selectedFamilyIds: new Set(), hoveredPolyFid: null, activePolyFid: null, dashboardCollapsed: true, rebuildLabelsHandler: null, showPolygons: true, showLabels: false, mapOpacity: 0.92, polyOpacity: 0.65, labelOpacity: 0.68, returnView: { center: map.getCenter(), zoom: map.getZoom() } };
   document.body.classList.add('has-study-panel');
   const handleBtn = ensureDashboardCollapseHandle();
   if (handleBtn) handleBtn.hidden = false;
   setStudySidebarCollapsed(true);
 
-  showWebgisLoading('Caricamento della mappa storica…');
-  const geoLayerPromise = addGeoTiffOverlay(detail.geoCandidates || [detail.geoUrl], detail.fid, { fit: false, opacity: studyState.mapOpacity })
+  showWebgisLoading('Ricerca delle tile e caricamento della mappa storica…');
+  const geoLayerPromise = addGeoTiffOverlay(detail.geoCandidates || [detail.geoUrl], detail.fid, {
+    fit: false,
+    opacity: studyState.mapOpacity,
+    tileCode: detail.tileCode || detail.sigla
+  })
     .catch(() => null)
     .finally(() => hideWebgisLoading());
   const built = buildStudyPolygons(detail);
@@ -2114,7 +2287,7 @@ async function openStudyMode(detail){
   map.on('zoomend', studyState.rebuildLabelsHandler);
 
   const panel = buildStudyPanel(detail);
-  panel.querySelector('.sp-close')?.addEventListener('click', closeStudyMode);
+  panel.querySelector('.sp-close')?.addEventListener('click', confirmCloseStudyMode);
   bindStudyPanelEvents(panel);
   refreshStudyVisualState();
   if (detail.focusFid) {
@@ -2184,6 +2357,8 @@ async function addRemoteWmsOverlay(config){
   const { key, serviceUrl, layers, opacity, attribution } = config || {};
   if (!key || !serviceUrl || !layers) return;
   try {
+    // Annulla eventuali richieste tile/GeoTIFF ancora in corso.
+    geoOverlayRequestId += 1;
     if (currentGeoLayer) {
       map.removeLayer(currentGeoLayer);
       currentGeoLayer = null;

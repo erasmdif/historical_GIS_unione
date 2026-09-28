@@ -1,0 +1,931 @@
+/* ========================================================================== 
+   WebGIS storico-amministrativo: mappa, linea del tempo, modale e gerarchia
+   ========================================================================== */
+
+:root{
+  --hist-ink: #352719;
+  --hist-ink-soft: #665442;
+  --hist-rust: #934123;
+  --hist-rust-dark: #71311c;
+  --hist-gold: #b78a4e;
+  --hist-paper: #f4ecdc;
+  --hist-paper-light: #fbf7ed;
+  --hist-border: #c7ad83;
+  --hist-shadow: 0 18px 44px rgba(53,39,25,.18);
+}
+
+body.webgis-page{
+  background: #ded8cc;
+  overflow: auto;
+}
+
+body.has-site-nav.webgis-page #app{
+  height: auto;
+  min-height: calc(100vh - var(--site-nav-h));
+}
+
+body.webgis-page #app{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  grid-template-rows: auto;
+  align-items: start;
+  background: #ded8cc;
+}
+
+.map-stage{
+  min-width: 0;
+  overflow: visible;
+  background:
+    linear-gradient(rgba(245,240,229,.94), rgba(232,224,210,.94)),
+    url('../../../images/webgis/historical/sfondo_pergamena_texture.png') center / 760px auto repeat;
+}
+
+.historical-view-stage{
+  position: relative;
+}
+.historical-view-switch{
+  position: absolute;
+  z-index: 950;
+  top: 14px;
+  right: 14px;
+  display: inline-flex;
+  gap: 3px;
+  padding: 4px;
+  background: rgba(250,246,236,.94);
+  border: 1px solid rgba(121,91,58,.38);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(45,34,23,.17);
+  backdrop-filter: blur(8px);
+}
+.historical-view-switch button{
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 11px;
+  color: #6a5845;
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font: 700 .75rem/1 system-ui, sans-serif;
+}
+.historical-view-switch button:hover{ color: var(--hist-rust); }
+.historical-view-switch button.is-active{
+  color: #fff9ef;
+  background: linear-gradient(145deg, #a94925, #7d301b);
+  box-shadow: 0 3px 8px rgba(82,37,20,.24);
+}
+.historical-map-shell[hidden]{ display: none !important; }
+
+.historical-map-shell{
+  position: relative;
+  height: clamp(530px, 68vh, 760px);
+  min-height: 520px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(96,75,52,.36);
+  box-shadow: 0 12px 30px rgba(37,31,23,.14);
+}
+
+body.webgis-page #map{
+  width: 100%;
+  height: 100% !important;
+  min-height: 100%;
+  background: #e6e1d6;
+}
+
+body.webgis-page #dashboard{
+  position: sticky;
+  top: 0;
+  height: calc(100vh - var(--site-nav-h));
+  min-height: 590px;
+  z-index: 800;
+}
+
+/* Indicatore del periodo in mappa */
+.historical-map-status{
+  position: absolute;
+  z-index: 700;
+  top: 14px;
+  left: 58px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 275px);
+  padding: 9px 13px;
+  color: #3c3024;
+  background: rgba(250,246,236,.92);
+  border: 1px solid rgba(121,91,58,.34);
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(45,34,23,.16), 0 1px 0 rgba(255,255,255,.85) inset;
+  backdrop-filter: blur(8px);
+  font-family: Georgia, 'Times New Roman', serif;
+  pointer-events: none;
+}
+.historical-map-status strong{
+  font-size: .96rem;
+  letter-spacing: .01em;
+}
+.historical-map-status > span{
+  color: #756452;
+  font-family: system-ui, sans-serif;
+  font-size: .74rem;
+}
+.historical-map-status__legend{
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 8px;
+  border-left: 1px solid rgba(111,91,67,.25);
+}
+.historical-map-status__swatch{
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  border: 2px solid transparent;
+}
+.historical-map-status__swatch.is-1790{ background:#e3d2bd; border-color:#936347; }
+.historical-map-status__swatch.is-2001{ background:#d7e2d7; border-color:#7c8f79; }
+.historical-map-status__swatch.is-2006{ background:#b9d2c8; border-color:#456f67; }
+
+/* I toponimi restano disponibili, ma diventano subordinati ai poligoni. */
+#map.historical-mode .poi-icon,
+#map.historical-mode .topo-icon{
+  opacity: .58;
+  transform: scale(.82);
+  transform-origin: center;
+  transition: opacity .18s ease, transform .18s ease;
+}
+#map.historical-mode .marker-cluster{
+  opacity: .64;
+  transition: opacity .18s ease;
+}
+#map.historical-mode.historical-mid-zoom .poi-icon,
+#map.historical-mode.historical-mid-zoom .topo-icon{
+  opacity: .30;
+  transform: scale(.70);
+}
+#map.historical-mode.historical-close-zoom .poi-icon,
+#map.historical-mode.historical-close-zoom .topo-icon{
+  opacity: 0;
+  pointer-events: none;
+}
+#map.historical-mode.historical-close-zoom .marker-cluster{
+  opacity: .12;
+}
+#map.historical-mode .legendctl{
+  opacity: .86;
+  transform: scale(.92);
+  transform-origin: bottom left;
+}
+
+/* Linea del tempo */
+.historical-timeline{
+  position: relative;
+  z-index: 10;
+  padding: 16px clamp(18px, 3vw, 44px) 14px;
+  color: var(--hist-ink);
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.22), transparent 20%, transparent 80%, rgba(255,255,255,.22)),
+    #eee6d7;
+  border-bottom: 1px solid rgba(103,79,54,.32);
+  box-shadow: 0 4px 0 rgba(116,86,52,.06) inset;
+}
+.historical-timeline__heading{
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 26px;
+  margin-bottom: 12px;
+}
+.historical-timeline__eyebrow{
+  color: var(--hist-rust);
+  font-size: .70rem;
+  font-weight: 850;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+.historical-timeline h2{
+  margin: 2px 0 0;
+  color: var(--hist-ink);
+  font: 700 clamp(1.35rem, 2.2vw, 1.9rem)/1.1 Georgia, 'Times New Roman', serif;
+}
+.historical-timeline__heading p{
+  max-width: 520px;
+  margin: 0;
+  color: #746452;
+  font-size: .82rem;
+  text-align: right;
+}
+.historical-year-switcher{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.historical-year-switcher::before{
+  content: '';
+  position: absolute;
+  z-index: 0;
+  left: 10%;
+  right: 10%;
+  top: 12px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(147,65,35,.35), rgba(147,65,35,.72), rgba(147,65,35,.35));
+}
+.historical-year{
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 30px auto;
+  column-gap: 10px;
+  align-items: center;
+  min-width: 0;
+  padding: 0 13px 12px;
+  color: #6c5a47;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: color .16s ease, border-color .16s ease, transform .16s ease;
+}
+.historical-year:hover{ color: var(--hist-rust); transform: translateY(-1px); }
+.historical-year__dot{
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  background: #f8f2e7;
+  border: 2px solid #a98359;
+  box-shadow: 0 0 0 5px rgba(238,230,215,.94), 0 3px 9px rgba(76,54,32,.16);
+}
+.historical-year__dot::after{
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #b8956c;
+}
+.historical-year__copy{
+  position: relative;
+  display: grid;
+  gap: 2px;
+  align-self: center;
+  min-width: 0;
+  padding: 1px 8px 2px 3px;
+  background: #eee6d7;
+  box-shadow: -5px 0 #eee6d7, 5px 0 #eee6d7;
+}
+.historical-year__copy strong{
+  color: inherit;
+  font: 700 1.28rem/1 Georgia, 'Times New Roman', serif;
+}
+.historical-year__copy small{
+  overflow: hidden;
+  color: #867561;
+  font-size: .70rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.historical-year.is-active{
+  color: var(--hist-rust-dark);
+  border-bottom-color: var(--hist-rust);
+}
+.historical-year.is-active .historical-year__dot{
+  background: var(--hist-rust);
+  border-color: #76321e;
+  box-shadow: 0 0 0 6px rgba(147,65,35,.13), 0 4px 11px rgba(76,35,23,.25);
+}
+.historical-year.is-active .historical-year__dot::after{ background: #f8e7d3; }
+
+/* Infografica gerarchica */
+.historical-infographic{
+  box-sizing: border-box;
+  height: clamp(530px, 68vh, 760px);
+  min-height: 520px;
+  overflow: auto;
+  padding: clamp(16px, 3vw, 38px);
+  background: #dcd4c5;
+}
+.historical-infographic[hidden]{ display:none !important; }
+.historical-infographic__paper{
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 100%;
+  padding: clamp(32px, 5vw, 70px) clamp(22px, 5vw, 78px) 52px;
+  color: var(--hist-ink);
+  background:
+    linear-gradient(rgba(250,245,234,.72), rgba(250,245,234,.72)),
+    url('../../../images/webgis/historical/sfondo_pergamena_texture.png') center / cover;
+  border: 1px solid #b99b72;
+  border-radius: 20px;
+  box-shadow: var(--hist-shadow), 0 2px 0 rgba(255,255,255,.82) inset;
+}
+.historical-infographic__paper::before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 15px;
+  border: 1px solid rgba(155,112,62,.30);
+  border-radius: 13px;
+  pointer-events: none;
+}
+.historical-infographic__paper::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: radial-gradient(circle at 50% 33%, rgba(255,255,255,.62), transparent 42%);
+  pointer-events: none;
+}
+.historical-decoration{
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+.historical-decoration--crest{ left: 4%; top: 35px; width: 110px; max-height: 125px; object-fit: contain; opacity: .84; }
+.historical-decoration--putto{ right: 3%; top: 22px; width: 170px; opacity: .76; }
+.historical-decoration--city{ left: -25px; bottom: -16px; width: 310px; opacity: .60; }
+.historical-decoration--mountains{ right: -24px; bottom: -10px; width: 390px; opacity: .54; }
+.historical-infographic__paper.is-modern .historical-decoration--crest{ width: 72px; opacity: .58; }
+.historical-infographic__header{
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  margin: 0 auto 28px;
+  text-align: center;
+}
+.historical-infographic__header > span{
+  color: var(--hist-rust);
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.historical-infographic__header h2{
+  margin: 6px 0 2px;
+  color: #382719;
+  font: 700 clamp(2.2rem, 5vw, 4.8rem)/.96 Georgia, 'Times New Roman', serif;
+  letter-spacing: -.035em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.72);
+}
+.historical-infographic__header p{
+  margin: 8px 0 0;
+  color: var(--hist-rust);
+  font: italic 1.15rem/1.3 Georgia, 'Times New Roman', serif;
+}
+.historical-infographic__layout{
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(30px, 5vw, 58px);
+  align-items: start;
+}
+.historical-hierarchy-canvas{ min-width: 0; }
+.historical-infographic__inspector{
+  position: relative;
+  scroll-margin-top: calc(var(--site-nav-h, 72px) + 20px);
+  overflow: hidden;
+  color: var(--hist-ink);
+  background: rgba(252,248,239,.94);
+  border: 1px solid rgba(147,100,55,.45);
+  border-radius: 15px;
+  box-shadow: 0 12px 28px rgba(64,43,25,.16), 0 1px 0 rgba(255,255,255,.9) inset;
+}
+.historical-infographic__inspector-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 15px 17px 12px;
+  background: rgba(231,211,180,.43);
+  border-bottom: 1px solid rgba(132,92,51,.28);
+}
+.historical-inspector-back{
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(132,92,51,.34);
+  border-radius: 50%;
+  color: var(--hist-rust);
+  background: rgba(255,252,246,.76);
+  cursor: pointer;
+  transition: transform .18s ease, background .18s ease, box-shadow .18s ease;
+}
+.historical-inspector-back:hover{
+  transform: translateY(-2px);
+  background: #fffaf1;
+  box-shadow: 0 7px 16px rgba(80,48,27,.13);
+}
+.historical-infographic__inspector.is-arriving{
+  animation: historical-inspector-arrival .85s ease;
+}
+@keyframes historical-inspector-arrival{
+  0%,100%{ box-shadow: 0 12px 28px rgba(64,43,25,.16), 0 1px 0 rgba(255,255,255,.9) inset; }
+  42%{ box-shadow: 0 0 0 5px rgba(147,65,35,.16), 0 18px 40px rgba(64,43,25,.22); }
+}
+.historical-infographic__inspector-head span{
+  color: var(--hist-rust);
+  font-size: .64rem;
+  font-weight: 850;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.historical-infographic__inspector-head h3{
+  margin: 3px 0 0;
+  font: 700 1.35rem/1.08 Georgia, 'Times New Roman', serif;
+}
+.historical-mini-map-wrap{
+  position: relative;
+  height: clamp(230px, 33vw, 390px);
+  border-bottom: 1px solid rgba(132,92,51,.28);
+}
+.historical-mini-map{ width: 100%; height: 100%; background: #e9e1d2; }
+.historical-mini-map .leaflet-tile-pane{
+  filter: sepia(.42) saturate(.68) contrast(.92) brightness(1.02);
+}
+.historical-mini-map .leaflet-control-zoom a{
+  color: #6e3926;
+  background: rgba(252,247,237,.94);
+}
+.historical-mini-map__credit{
+  position: absolute;
+  z-index: 500;
+  right: 4px;
+  bottom: 3px;
+  padding: 2px 4px;
+  color: #5d5145;
+  background: rgba(255,255,255,.76);
+  font: 9px/1.2 system-ui, sans-serif;
+}
+.historical-infographic__inspector-body{
+  max-height: 520px;
+  overflow: auto;
+  padding: 14px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(147,65,35,.52) rgba(147,65,35,.07);
+}
+.historical-infographic__inspector-body::-webkit-scrollbar{ width:8px; }
+.historical-infographic__inspector-body::-webkit-scrollbar-track{ background:rgba(147,65,35,.06); }
+.historical-infographic__inspector-body::-webkit-scrollbar-thumb{ border:2px solid transparent; border-radius:999px; background:rgba(147,65,35,.50); background-clip:padding-box; }
+.historical-infographic__inspector .historical-lineage{ margin-bottom: 10px; font-size: .70rem; }
+.historical-infographic__inspector .historical-story{ padding: 12px; }
+.historical-infographic__inspector .historical-story p{ font-size: .82rem; line-height: 1.48; }
+.historical-infographic__inspector .historical-story h3{ font-size: 1.05rem; }
+.historical-infographic__inspector .historical-story h4{ font-size: .94rem; }
+.historical-infographic__inspector .historical-ancestors{ margin-top: 14px; }
+.historical-infographic [data-focus-historical].is-selected{
+  outline: 3px solid rgba(147,65,35,.27);
+  outline-offset: 2px;
+  border-color: var(--hist-rust);
+  box-shadow: 0 7px 18px rgba(101,48,25,.2);
+}
+.historical-infographic .hierarchy-root.is-selected{
+  outline-color: rgba(183,138,78,.55);
+}
+.hierarchy-root-wrap{
+  position: relative;
+  z-index: 2;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 34px;
+}
+.hierarchy-root-wrap::after{
+  content: '';
+  width: 1px;
+  height: 28px;
+  background: #8e7557;
+}
+.hierarchy-root,
+.hierarchy-domain,
+.hierarchy-card,
+.hierarchy-list-card,
+.hierarchy-subtree__parent{
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.hierarchy-root{
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  align-items: center;
+  column-gap: 12px;
+  min-width: min(380px, 80vw);
+  padding: 17px 28px;
+  color: #fff8ec;
+  background: linear-gradient(145deg, #a94925, #7d301b);
+  border: 1px solid #692614;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(82,37,20,.28), 0 1px 0 rgba(255,255,255,.24) inset;
+  cursor: pointer;
+}
+.hierarchy-root img{ grid-row: 1 / 3; width: 32px; max-height: 32px; object-fit: contain; filter: brightness(0) invert(1); }
+.hierarchy-root span{ font-size: 1.33rem; font-weight: 700; }
+.hierarchy-root small{ color: #edd3bc; font: .70rem/1 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .12em; }
+.hierarchy-domain{
+  position: relative;
+  min-width: min(330px, 70vw);
+  padding: 10px 20px;
+  color: var(--hist-rust);
+  background: rgba(250,244,232,.80);
+  border: 1px solid #bb8c58;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(70,48,27,.10);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hierarchy-domain::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 1px;
+  height: 28px;
+  background: #8e7557;
+}
+.hierarchy-first-level{
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+  margin-top: 28px;
+  padding-top: 21px;
+  border-top: 1px solid #9d8566;
+}
+.hierarchy-card{
+  box-sizing: border-box;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  min-height: 118px;
+  padding: 15px 10px 12px;
+  color: #3c2c1e;
+  background: rgba(250,245,235,.72);
+  border: 1px solid rgba(164,126,78,.58);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(67,47,27,.08), 0 1px 0 rgba(255,255,255,.80) inset;
+  cursor: pointer;
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+
+.hierarchy-card.has-descendants{
+  border: 2px solid #bd8747;
+  box-shadow: 0 5px 12px rgba(105,65,31,.13), 0 1px 0 rgba(255,255,255,.86) inset;
+}
+.hierarchy-card::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: 1px;
+  height: 22px;
+  background: #9d8566;
+}
+.hierarchy-card:hover,
+.hierarchy-list-card:hover,
+.hierarchy-subtree__parent:hover,
+.hierarchy-root:hover{
+  transform: translateY(-2px);
+  border-color: var(--hist-rust);
+  box-shadow: 0 8px 18px rgba(90,52,27,.17), 0 1px 0 rgba(255,255,255,.90) inset;
+}
+.hierarchy-card img{ width: 31px; height: 31px; object-fit: contain; margin-bottom: 7px; opacity: .78; }
+.hierarchy-card span{ font-size: .98rem; font-weight: 700; line-height: 1.08; }
+.hierarchy-card small{ margin-top: 5px; color: #8a735c; font: .62rem/1 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .10em; }
+.hierarchy-subtrees{
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 28px auto 70px;
+}
+.hierarchy-subtree{
+  padding: 16px;
+  background: rgba(250,245,234,.62);
+  border: 2px double #bd8d50;
+  border-radius: 15px;
+  box-shadow: 0 5px 14px rgba(78,54,29,.10), 0 1px 0 rgba(255,255,255,.80) inset;
+}
+.hierarchy-subtree > header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-bottom: 11px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(151,113,67,.28);
+}
+.hierarchy-subtree > header > span{
+  color: #8b745d;
+  font-size: .68rem;
+  text-align: right;
+}
+.hierarchy-subtree__parent{
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 10px;
+  color: var(--hist-rust-dark);
+  background: rgba(255,250,241,.80);
+  border: 1px solid rgba(159,116,67,.42);
+  border-radius: 9px;
+  cursor: pointer;
+}
+.hierarchy-subtree__parent img{ width: 24px; height: 24px; object-fit: contain; }
+.hierarchy-subtree__parent span{ font-weight: 700; }
+.hierarchy-subtree__parent small{ display:none; }
+.hierarchy-nested{
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hierarchy-nested .hierarchy-nested{
+  margin: 6px 0 0 25px;
+  padding-left: 12px;
+  border-left: 1px solid rgba(143,100,54,.42);
+}
+.hierarchy-list-card{
+  display: grid;
+  grid-template-columns: 25px minmax(0,1fr) auto;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 7px 8px;
+  color: #463424;
+  background: rgba(255,251,243,.58);
+  border: 1px solid transparent;
+  border-bottom-color: rgba(150,112,68,.24);
+  border-radius: 7px;
+  cursor: pointer;
+  text-align: left;
+  transition: transform .16s ease, border-color .16s ease, background .16s ease;
+}
+.hierarchy-list-card img{ width: 23px; height: 23px; object-fit: contain; opacity: .72; }
+.hierarchy-list-card span{ font-size: .91rem; font-weight: 700; }
+.hierarchy-list-card small{ color: #927a62; font: .59rem/1 system-ui, sans-serif; text-transform: uppercase; letter-spacing: .08em; }
+.historical-infographic__footer{
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 16px;
+  max-width: 760px;
+  margin: 8px auto 0;
+  color: #765e45;
+  text-align: center;
+  font: italic .85rem/1.4 Georgia, 'Times New Roman', serif;
+}
+.historical-infographic__footer span{
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #a86a43);
+}
+.historical-infographic__footer span:last-child{ background: linear-gradient(90deg, #a86a43, transparent); }
+
+/* Modale storia */
+.historical-modal[hidden]{ display:none !important; }
+.historical-modal{
+  position: fixed;
+  z-index: 12000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 22px;
+}
+.historical-modal__backdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(24,18,13,.70);
+  backdrop-filter: blur(5px);
+}
+.historical-modal__dialog{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(880px, 96vw);
+  max-height: min(840px, 92vh);
+  overflow: hidden;
+  color: var(--hist-ink);
+  background:
+    linear-gradient(rgba(250,246,237,.91), rgba(246,238,224,.94)),
+    url('../../../images/webgis/historical/sfondo_pergamena_texture.png') center / cover;
+  border: 1px solid #b49366;
+  border-radius: 18px;
+  box-shadow: 0 30px 90px rgba(13,9,6,.48), 0 2px 0 rgba(255,255,255,.76) inset;
+}
+.historical-modal__head{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 20px 22px 15px;
+  border-bottom: 1px solid rgba(129,91,51,.30);
+  background: rgba(239,224,199,.54);
+}
+.historical-modal__kicker{
+  display: block;
+  margin-bottom: 3px;
+  color: var(--hist-rust);
+  font-size: .70rem;
+  font-weight: 850;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.historical-modal__head h2{
+  margin: 0;
+  font: 700 clamp(1.55rem, 3vw, 2.45rem)/1.05 Georgia, 'Times New Roman', serif;
+}
+.historical-modal__close{
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  color: #6b4b32;
+  background: rgba(255,251,243,.76);
+  border: 1px solid rgba(137,99,58,.42);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.historical-modal__body{
+  overflow: auto;
+  padding: 20px 22px 28px;
+}
+.historical-lineage{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+  padding: 8px 10px;
+  background: rgba(255,251,244,.58);
+  border: 1px solid rgba(145,109,67,.24);
+  border-radius: 10px;
+}
+.historical-lineage button{
+  flex: 0 0 auto;
+  padding: 0;
+  color: #725239;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+}
+.historical-lineage i{ color: #aa8660; font-size: .68rem; }
+.historical-story{
+  padding: 17px;
+  background: rgba(255,252,246,.66);
+  border: 1px solid rgba(153,113,66,.30);
+  border-radius: 13px;
+  box-shadow: 0 5px 14px rgba(77,52,29,.07), 0 1px 0 rgba(255,255,255,.78) inset;
+}
+.historical-story + .historical-story{ margin-top: 10px; }
+.historical-story--main{
+  border-left: 5px solid var(--hist-rust);
+}
+.historical-story header{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 11px;
+}
+.historical-story header img{
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  opacity: .78;
+}
+.historical-story header span{
+  color: #9b7752;
+  font-size: .66rem;
+  font-weight: 800;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+.historical-story h3,
+.historical-story h4{
+  margin: 1px 0 0;
+  color: #3d2b1c;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.historical-story h3{ font-size: 1.30rem; }
+.historical-story h4{ font-size: 1.05rem; }
+.historical-story p{
+  margin: 0;
+  color: #5e4f3f;
+  line-height: 1.62;
+}
+.historical-story--ancestor header button{
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  color: var(--hist-rust);
+  background: rgba(247,237,220,.72);
+  border: 1px solid rgba(151,108,62,.32);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.historical-story__source{
+  margin-top: 14px;
+  padding-top: 11px;
+  border-top: 1px dashed rgba(125,92,58,.30);
+}
+.historical-story__source strong{
+  color: #836344;
+  font-size: .68rem;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+.historical-story__source p{
+  margin-top: 4px;
+  color: #80715f;
+  font-size: .72rem;
+  line-height: 1.45;
+}
+.historical-ancestors{ margin-top: 19px; }
+.historical-ancestors__heading{ margin-bottom: 10px; }
+.historical-ancestors__heading span{
+  color: var(--hist-rust);
+  font-size: .66rem;
+  font-weight: 850;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.historical-ancestors__heading h3{
+  margin: 2px 0 0;
+  font: 700 1.25rem/1.2 Georgia, 'Times New Roman', serif;
+}
+.historical-empty{ color:#7d6a56; font-style:italic; }
+body.historical-modal-open{ overflow:hidden; }
+
+@media (max-width: 1180px){
+  body.webgis-page #app{ grid-template-columns: minmax(0, 1fr) 310px; }
+  .historical-decoration--putto{ width: 135px; opacity: .54; }
+  .historical-decoration--crest{ width: 82px; }
+  .historical-infographic__paper{ padding-inline: 30px; }
+  .historical-infographic__layout{ grid-template-columns: minmax(0, 1fr); gap: 34px; }
+}
+
+@media (max-width: 900px){
+  body.webgis-page #app{ grid-template-columns: 1fr; }
+  body.webgis-page #dashboard{
+    position: relative;
+    height: auto;
+    min-height: 650px;
+  }
+  .historical-map-shell{ height: 62vh; min-height: 480px; }
+  .historical-infographic{ height: auto; min-height: 620px; }
+}
+
+@media (max-width: 680px){
+  .historical-view-switch{ top: 10px; right: 10px; }
+  .historical-view-switch button{ padding: 8px; }
+  .historical-view-switch button span{ display:none; }
+  .historical-map-status{
+    top: 62px;
+    left: 10px;
+    right: 10px;
+    max-width: none;
+    flex-wrap: wrap;
+  }
+  .historical-timeline__heading{ display:block; }
+  .historical-timeline__heading p{ margin-top:8px; text-align:left; }
+  .historical-year-switcher{ gap: 4px; }
+  .historical-year{
+    grid-template-columns: 26px minmax(0,1fr);
+    column-gap: 7px;
+    padding-inline: 4px;
+  }
+  .historical-year__copy{ padding-right: 3px; }
+  .historical-year__copy small{ font-size:.61rem; }
+  .historical-infographic{ padding: 10px; }
+  .historical-infographic__paper{ padding: 34px 14px 44px; border-radius: 12px; }
+  .historical-decoration--crest,
+  .historical-decoration--putto{ display:none; }
+  .historical-infographic__header h2{ font-size:2.1rem; }
+  .historical-infographic__layout{ grid-template-columns: 1fr; }
+  .historical-infographic__inspector{ position: relative; }
+  .historical-infographic__inspector-body{ max-height: none; }
+  .hierarchy-first-level{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hierarchy-subtrees{ grid-template-columns: 1fr; margin-bottom: 100px; }
+  .hierarchy-card{ min-height: 105px; }
+  .historical-decoration--city{ width:220px; }
+  .historical-decoration--mountains{ width:260px; }
+  .historical-modal{ padding:8px; }
+  .historical-modal__dialog{ max-height:96vh; border-radius:12px; }
+  .historical-modal__head,
+  .historical-modal__body{ padding-inline:14px; }
+}

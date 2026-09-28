@@ -24,3 +24,6 @@ Thumbs.db
 *.temp
 *.bak
 *~
+
+# GeoTIFF troppo grande per GitHub
+/images/maps/georeferenced/SP_MAPPA-1.tif

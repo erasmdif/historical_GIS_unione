@@ -6,6 +6,13 @@
   const U = window.MapsDataUtils;
   if(!main || !U) return;
 
+  const migratedView = new URL(window.location.href).searchParams.get('view');
+  const archiveRedirects = { asmo:'asmo', vignola:'vignola', castelnuovo:'castelnuovo' };
+  if(archiveRedirects[migratedView]){
+    window.location.replace(`archivi.html?view=${archiveRedirects[migratedView]}`);
+    return;
+  }
+
   const PATHS = {
     family: 'images/other_images/placeholders/family_crest_placeholder.svg',
     male: 'images/other_images/placeholders/person_male_placeholder.svg',
@@ -1044,9 +1051,9 @@
       const mapRoot = document.getElementById('family-history-map');
       if(!familyMap){
         familyMap = window.L.map(mapRoot,{zoomControl:true,attributionControl:true,preferCanvas:true});
-        window.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-          maxZoom:20,
-          attribution:'&copy; OpenStreetMap &copy; CARTO'
+        window.L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          maxZoom:19,
+          attribution:'&copy; OpenStreetMap contributors'
         }).addTo(familyMap);
         mapRoot.removeEventListener('click',handleHistoryMapClick);
         mapRoot.addEventListener('click',handleHistoryMapClick);
@@ -2322,15 +2329,9 @@
     cityBaseLayers = {
       osm: window.L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
         maxZoom:19,
-        opacity:.74,
+        opacity:.88,
         attribution:'&copy; OpenStreetMap contributors',
         className:'city-base-tiles city-base-tiles--osm'
-      }),
-      carto: window.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-        maxZoom:20,
-        opacity:.92,
-        attribution:'&copy; OpenStreetMap &copy; CARTO',
-        className:'city-base-tiles city-base-tiles--carto'
       })
     };
     if(!cityBaseLayers[cityBaseMode]) cityBaseMode='osm';
@@ -2430,7 +2431,6 @@
               <div class="city-map-controls">
                 <div class="city-basemap-switch" role="group" aria-label="Scegli la base cartografica">
                   <button type="button" data-city-basemap="osm" class="${cityBaseMode==='osm'?'is-active':''}" title="Base OpenStreetMap" aria-label="Base OpenStreetMap" aria-pressed="${cityBaseMode==='osm'?'true':'false'}"><i class="bi bi-globe-europe-africa"></i></button>
-                  <button type="button" data-city-basemap="carto" class="${cityBaseMode==='carto'?'is-active':''}" title="Base CartoDB" aria-label="Base CartoDB" aria-pressed="${cityBaseMode==='carto'?'true':'false'}"><i class="bi bi-map"></i></button>
                 </div>
                 <button id="city-fit-map" type="button" title="Adatta alle geometrie" aria-label="Adatta alle geometrie"><i class="bi bi-arrows-fullscreen"></i></button>
               </div>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <base href="../../../" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4efe5" />
+  <title>Gli archivi · Atlante Storico Digitale</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="static/css/common/site-nav.css" />
+  <link rel="stylesheet" href="static/css/archives/portal.css" />
+</head>
+<body class="has-site-nav archives-portal" data-section="archives" data-nav-title="Atlante Storico Digitale">
+  <div id="site-nav-root"></div>
+
+  <button class="archive-sidebar-toggle" id="archive-sidebar-toggle" type="button" aria-label="Apri l'indice degli archivi" aria-expanded="false">
+    <i class="bi bi-list"></i><span>Indice</span>
+  </button>
+
+  <div class="archive-portal-shell">
+    <aside class="archive-sidebar" id="archive-sidebar" aria-label="Gerarchia degli archivi">
+      <a class="archive-sidebar__brand" href="archivi.html">
+        <img src="images/other_images/archives/portal/icons/icon_archive.svg" alt="" />
+        <span>Patrimonio cartografico</span>
+        <strong>Gli archivi</strong>
+      </a>
+
+      <nav class="archive-tree" aria-label="Sezioni archivistiche">
+        <a class="archive-tree__root" href="archivi.html" data-archive-link="landing">
+          <i class="bi bi-diagram-3"></i><span>Gli archivi</span>
+        </a>
+
+        <a class="archive-tree__item" href="archivi.html?view=asmo" data-archive-link="asmo">
+          <i class="bi bi-bank"></i><span>Archivio di Stato di Modena</span>
+        </a>
+
+        <section class="archive-tree__group is-open" data-tree-group>
+          <button class="archive-tree__group-toggle" type="button" aria-expanded="true">
+            <i class="bi bi-archive"></i><span>Archivio Terre Unione Castelli</span><i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="archive-tree__children">
+            <a href="archivi.html?view=unione" data-archive-link="unione"><i class="bi bi-map"></i><span>Presentazione</span></a>
+            <a href="archivi.html?view=castelnuovo" data-archive-link="castelnuovo"><i class="bi bi-building"></i><span>Castelnuovo Rangone</span></a>
+            <a href="archivi.html?view=castelvetro" data-archive-link="castelvetro"><i class="bi bi-building"></i><span>Castelvetro di Modena</span></a>
+            <a href="archivi.html?view=guiglia" data-archive-link="guiglia"><i class="bi bi-building"></i><span>Guiglia</span></a>
+            <a href="archivi.html?view=marano" data-archive-link="marano"><i class="bi bi-building"></i><span>Marano sul Panaro</span></a>
+            <a href="archivi.html?view=savignano" data-archive-link="savignano"><i class="bi bi-building"></i><span>Savignano sul Panaro</span></a>
+            <a href="archivi.html?view=spilamberto" data-archive-link="spilamberto"><i class="bi bi-building"></i><span>Spilamberto</span></a>
+            <a href="archivi.html?view=vignola" data-archive-link="vignola"><i class="bi bi-building"></i><span>Vignola</span></a>
+            <a href="archivi.html?view=zocca" data-archive-link="zocca"><i class="bi bi-building"></i><span>Zocca</span></a>
+          </div>
+        </section>
+      </nav>
+
+      <blockquote>«Ogni carta conserva il gesto amministrativo che ha dato forma al territorio.»</blockquote>
+    </aside>
+    <div class="archive-sidebar-scrim" id="archive-sidebar-scrim" hidden></div>
+
+    <main id="archives-main" class="archives-main" aria-live="polite">
+      <div class="archives-loading" role="status"><span></span><p>Sto ordinando carte e provenienze…</p></div>
+    </main>
+  </div>
+
+  <div class="archive-lightbox" id="archive-lightbox" hidden>
+    <button type="button" data-close-lightbox aria-label="Chiudi"><i class="bi bi-x-lg"></i></button>
+    <img alt="Ingrandimento della mappa selezionata" />
+    <p></p>
+  </div>
+
+  <script src="static/js/common/site-nav.js"></script>
+  <script src="static/js/common/maps-data.js"></script>
+  <script src="static/js/archives/portal.js"></script>
+</body>
+</html>

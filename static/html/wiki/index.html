@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <base href="../../../" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d3437" />
+  <title>Guida all’Atlante · Terre di Castelli</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="static/css/wiki/wiki.css" />
+</head>
+<body class="wiki-page">
+  <button id="wiki-menu-toggle" class="wiki-menu-toggle" type="button" aria-label="Apri l’indice" aria-expanded="false"><i class="bi bi-list"></i></button>
+
+  <aside id="wiki-sidebar" class="wiki-sidebar" aria-label="Indice della documentazione">
+    <a class="wiki-brand" href="static/html/homepage/index.html">
+      <img src="images/other_images/home/home_identity_mark.png" alt="" />
+      <span>Terre di Castelli</span>
+      <strong>Atlante Storico Digitale</strong>
+    </a>
+    <div class="wiki-sidebar__intro">
+      <span>Documentazione</span>
+      <p>Guida visuale alle sezioni dell’Atlante, agli strumenti cartografici e ai percorsi di consultazione.</p>
+    </div>
+    <label class="wiki-side-search"><i class="bi bi-search"></i><input id="wiki-side-search" type="search" placeholder="Cerca nella guida…" /></label>
+    <nav class="wiki-index">
+      <a href="#intro" data-wiki-link><i class="bi bi-book"></i><span>Introduzione</span></a>
+      <section class="wiki-index__group is-open">
+        <button type="button" aria-expanded="true"><i class="bi bi-globe2"></i><span>WebGIS</span><i class="bi bi-chevron-down"></i></button>
+        <div>
+          <a href="#webgis" data-wiki-link>Panoramica</a>
+          <a href="#gerarchia" data-wiki-link>Gerarchia storica</a>
+          <a href="#dettaglio-mappa" data-wiki-link>Dettaglio mappa</a>
+        </div>
+      </section>
+      <section class="wiki-index__group is-open">
+        <button type="button" aria-expanded="true"><i class="bi bi-archive"></i><span>Archivi</span><i class="bi bi-chevron-down"></i></button>
+        <div><a href="#archivi" data-wiki-link>Pagina di un comune</a></div>
+      </section>
+      <section class="wiki-index__group is-open">
+        <button type="button" aria-expanded="true"><i class="bi bi-people"></i><span>Famiglie</span><i class="bi bi-chevron-down"></i></button>
+        <div>
+          <a href="#famiglie" data-wiki-link>Sezione principale</a>
+          <a href="#famiglie-mappa" data-wiki-link>Mappa e timebar</a>
+          <a href="#famiglie-fonti" data-wiki-link>Personaggi e tracce</a>
+        </div>
+      </section>
+      <a href="#citta" data-wiki-link><i class="bi bi-buildings"></i><span>La città nella storia</span></a>
+    </nav>
+    <div class="wiki-sidebar__links">
+      <a href="static/html/homepage/index.html"><i class="bi bi-house-door"></i> Home</a>
+      <a href="static/html/webgis/webgis.html"><i class="bi bi-map"></i> Apri il WebGIS</a>
+    </div>
+    <blockquote>«Ogni strumento è una diversa soglia d’accesso alla memoria del territorio.»</blockquote>
+  </aside>
+  <div id="wiki-scrim" class="wiki-scrim" hidden></div>
+
+  <main class="wiki-main">
+    <header class="wiki-topbar">
+      <div class="wiki-breadcrumb"><a href="static/html/homepage/index.html">Home</a><i class="bi bi-chevron-right"></i><span>Documentazione</span></div>
+      <label class="wiki-global-search"><i class="bi bi-search"></i><input id="wiki-global-search" type="search" placeholder="Cerca titoli, strumenti e funzioni…" /><kbd>⌘ K</kbd></label>
+    </header>
+
+    <article class="wiki-content">
+      <section id="intro" class="wiki-section wiki-intro" data-wiki-section data-search="introduzione guida atlante progetto">
+        <p class="wiki-eyebrow">Guida all’interfaccia</p>
+        <h1>Leggere le carte,<br /><em>attraversare le storie</em></h1>
+        <p class="wiki-lead">L’Atlante Storico Digitale riunisce mappe georeferenziate, immagini annotate, luoghi, archivi e nuclei familiari. Questa guida accompagna la consultazione: parte dagli strumenti generali e mostra, attraverso schermate commentate, come passare dal territorio alla singola fonte e dalle geometrie alle persone che vi hanno lasciato traccia.</p>
+        <div class="wiki-intro-grid">
+          <a href="#webgis"><i class="bi bi-globe2"></i><strong>Esplora il territorio</strong><span>Mappe, timeline e filtri</span></a>
+          <a href="#archivi"><i class="bi bi-archive"></i><strong>Risalire alle fonti</strong><span>Provenienze e raccolte</span></a>
+          <a href="#famiglie"><i class="bi bi-people"></i><strong>Seguire le relazioni</strong><span>Famiglie e possedimenti</span></a>
+          <a href="#citta"><i class="bi bi-clock-history"></i><strong>Confrontare il tempo</strong><span>Fasi e trasformazioni</span></a>
+        </div>
+      </section>
+
+      <section id="webgis" class="wiki-section" data-wiki-section data-search="webgis mappa sidebar filtri timeline gerarchia comuni">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">WebGIS · panoramica</p><h2>Orientarsi nella mappa</h2><p>La vista principale combina una mappa territoriale, il catalogo laterale delle carte, i filtri e una linea del tempo dedicata agli assetti amministrativi.</p></header>
+        <figure class="wiki-figure">
+          <div class="wiki-screen wiki-screen--wide">
+            <img src="images/documentation/screens/webgis.png" alt="Schermata generale del WebGIS con mappa e catalogo laterale" />
+            <button class="wiki-pin" style="--x:76%;--y:21%" data-note="webgis-1" aria-label="Apri nota 1">1</button>
+            <button class="wiki-pin" style="--x:88%;--y:43%" data-note="webgis-2" aria-label="Apri nota 2">2</button>
+            <button class="wiki-pin" style="--x:53%;--y:91%" data-note="webgis-3" aria-label="Apri nota 3">3</button>
+            <button class="wiki-pin" style="--x:69%;--y:10%" data-note="webgis-4" aria-label="Apri nota 4">4</button>
+          </div>
+          <figcaption>WebGIS: distribuzione dei luoghi, catalogo delle carte e strumenti di esplorazione.</figcaption>
+        </figure>
+        <div class="wiki-notes">
+          <article id="webgis-1"><span>1</span><div><h3>Mappa interattiva</h3><p>Trascina, ingrandisci e seleziona i simboli per riconoscere i luoghi. Quando è attiva una carta georeferenziata, il sistema passa automaticamente alla vista Mappa e rimuove le geometrie amministrative.</p></div></article>
+          <article id="webgis-2"><span>2</span><div><h3>Sidebar e catalogo</h3><p>Le mappe sono organizzate per archivio e tipologia. La ricerca individua sigle, titoli e comuni; i filtri restringono il catalogo alle risorse georeferenziate o annotate.</p></div></article>
+          <article id="webgis-3"><span>3</span><div><h3>Linea del tempo</h3><p>Gli anni 1790, 2001 e 2006 richiamano assetti differenti. La linea resta sempre disponibile nell’header inferiore senza sottrarre spazio alla mappa.</p></div></article>
+          <article id="webgis-4"><span>4</span><div><h3>Modalità Gerarchie</h3><p>Il pulsante alterna la cartografia all’infografica storica. La selezione temporale viene conservata nel passaggio tra le due visualizzazioni.</p></div></article>
+        </div>
+      </section>
+
+      <section id="gerarchia" class="wiki-section" data-wiki-section data-search="gerarchia storica diagramma albero inspector mini mappa">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">WebGIS · gerarchia storica</p><h2>Dall’albero al territorio</h2><p>L’infografica ordina le entità secondo i rapporti di dipendenza. Ogni nodo è selezionabile e conduce alla scheda inferiore con mini-mappa e contesto documentario.</p></header>
+        <div class="wiki-carousel" data-carousel>
+          <div class="wiki-carousel__toolbar"><span data-carousel-label>1 / 2 · Diagramma ad albero</span><div><button type="button" data-carousel-prev aria-label="Schermata precedente"><i class="bi bi-arrow-left"></i></button><button type="button" data-carousel-next aria-label="Schermata successiva"><i class="bi bi-arrow-right"></i></button></div></div>
+          <div class="wiki-carousel__viewport"><div class="wiki-carousel__track">
+            <section class="wiki-carousel__slide" data-slide-label="Diagramma ad albero">
+              <div class="hierarchy-demo">
+                <header><span>Atlante delle giurisdizioni</span><h3>Governo Estense</h3><p>Gerarchia politico-amministrativa · 1790</p></header>
+                <div class="hierarchy-demo__root"><i class="bi bi-gem"></i><strong>Governo Estense</strong></div>
+                <div class="hierarchy-demo__branch"><span></span><span></span><span></span></div>
+                <div class="hierarchy-demo__nodes"><button>Ducato di Modena</button><button>Feudi Rangoni</button><button>Marchesato di Vignola</button></div>
+                <div class="hierarchy-demo__leaves"><span>Spilamberto</span><span>Castelvetro</span><span>Vignola</span><span>Savignano</span></div>
+                <button class="wiki-pin" style="--x:72%;--y:63%" data-note="hierarchy-1">1</button>
+              </div>
+            </section>
+            <section class="wiki-carousel__slide" data-slide-label="Scheda e mini-mappa">
+              <div class="inspector-demo">
+                <div class="inspector-demo__map"><span></span><span></span><span></span><strong>Vignola</strong></div>
+                <div class="inspector-demo__copy"><div><p>Marchesato · 1790</p><h3>Marchesato di Vignola</h3></div><button title="Torna al diagramma"><i class="bi bi-diagram-3"></i></button><p>La scheda riunisce descrizione storica, fonti e catena gerarchica dell’entità selezionata.</p><div class="inspector-demo__lineage">Governo Estense <i class="bi bi-chevron-right"></i> Marchesato di Vignola</div></div>
+                <button class="wiki-pin" style="--x:90%;--y:18%" data-note="hierarchy-2">2</button>
+                <button class="wiki-pin" style="--x:28%;--y:52%" data-note="hierarchy-3">3</button>
+              </div>
+            </section>
+          </div></div>
+          <div class="wiki-carousel__dots" data-carousel-dots></div>
+        </div>
+        <div class="wiki-notes">
+          <article id="hierarchy-1"><span>1</span><div><h3>Nodi cliccabili</h3><p>I nodi rappresentano governi, feudi, marchesati e comuni. Il click evidenzia l’entità e porta direttamente alla scheda di approfondimento.</p></div></article>
+          <article id="hierarchy-2"><span>2</span><div><h3>Ritorno all’albero</h3><p>Il pulsante con l’icona gerarchica riporta al diagramma senza perdere il luogo selezionato.</p></div></article>
+          <article id="hierarchy-3"><span>3</span><div><h3>Mini-mappa contestuale</h3><p>La geometria selezionata viene mostrata qui, separata dalla mappa principale, insieme agli eventuali territori dipendenti.</p></div></article>
+        </div>
+      </section>
+
+      <section id="dettaglio-mappa" class="wiki-section" data-wiki-section data-search="dettaglio mappa poligoni categorie proprietari appezzamento interattiva">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">WebGIS · dettaglio mappa</p><h2>Interrogare una carta georeferenziata</h2><p>Il pannello di studio controlla il raster, le categorie e i proprietari. Selezionando una geometria si apre la scheda del luogo, senza perdere il contesto cartografico.</p></header>
+        <figure class="wiki-figure">
+          <div class="wiki-screen wiki-screen--wide">
+            <img src="images/documentation/screens/map_detail.png" alt="Carta storica georeferenziata con pannello interattivo e poligono selezionato" />
+            <button class="wiki-pin" style="--x:25%;--y:72%" data-note="detail-1">1</button>
+            <button class="wiki-pin" style="--x:41%;--y:73%" data-note="detail-2">2</button>
+            <button class="wiki-pin" style="--x:72%;--y:41%" data-note="detail-3">3</button>
+          </div>
+          <figcaption>Esempio: categoria “appezzamento” e luogo “Piazzale della chiesa di S. Pietro”.</figcaption>
+        </figure>
+        <div class="wiki-notes">
+          <article id="detail-1"><span>1</span><div><h3>Visualizzazione</h3><p>Attiva poligoni ed etichette e regola separatamente l’opacità della carta, delle geometrie e dei testi.</p></div></article>
+          <article id="detail-2"><span>2</span><div><h3>Categorie e proprietari</h3><p>I filtri evidenziano gruppi omogenei. Il conteggio laterale indica quanti elementi della carta appartengono a ciascuna categoria o soggetto.</p></div></article>
+          <article id="detail-3"><span>3</span><div><h3>Luogo selezionato</h3><p>Hover e click distinguono il singolo poligono. La scheda successiva presenta tipologia, descrizione, relazioni e dati quantitativi disponibili.</p></div></article>
+        </div>
+      </section>
+
+      <section id="archivi" class="wiki-section" data-wiki-section data-search="archivi Vignola mappe comune galleria provenienza">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">Archivi · pagina di un comune</p><h2>Le mappe nel loro contesto</h2><p>Ogni pagina comunale introduce l’archivio e raccoglie automaticamente le carte associate in <code>maps.csv</code>. Le azioni disponibili dipendono dai materiali presenti.</p></header>
+        <div class="archive-demo">
+          <div class="archive-demo__head"><span>Archivio storico comunale</span><h3>Archivio di Vignola</h3><p>Mappe, disegni e documenti per leggere la città e il territorio.</p></div>
+          <div class="archive-demo__cards">
+            <article><img src="images/other_images/archives/vignola/vignola_urbano.jpg" alt="Cartografia urbana di Vignola" /><strong>Assetto urbano</strong><span>Apri originale · WebGIS</span></article>
+            <article><img src="images/other_images/archives/vignola/vignola_panaro.jpg" alt="Cartografia del Panaro" /><strong>Il corso del Panaro</strong><span>Apri originale · WebGIS</span></article>
+            <article><img src="images/other_images/archives/vignola/vignola_canale.jpg" alt="Cartografia dei canali" /><strong>Canali e campagne</strong><span>Apri originale · Dettaglio</span></article>
+          </div>
+          <button class="wiki-pin" style="--x:15%;--y:19%" data-note="archives-1">1</button><button class="wiki-pin" style="--x:55%;--y:70%" data-note="archives-2">2</button>
+        </div>
+        <div class="wiki-notes">
+          <article id="archives-1"><span>1</span><div><h3>Profilo dell’archivio</h3><p>L’introduzione chiarisce provenienza, consistenza censita e rapporto tra la selezione digitale e il patrimonio conservato.</p></div></article>
+          <article id="archives-2"><span>2</span><div><h3>Azioni sulle carte</h3><p>Ogni scheda può aprire l’immagine originale, il WebGIS o la vista annotata. Nuove righe correttamente classificate nel CSV compaiono automaticamente.</p></div></article>
+        </div>
+      </section>
+
+      <section id="famiglie" class="wiki-section" data-wiki-section data-search="famiglie filtro box statistiche casato">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">Famiglie · sezione principale</p><h2>Dal casato ai possedimenti</h2><p>Il filtro alfabetico seleziona una famiglia e ricompone in tempo reale profilo, statistiche, mappe collegate e attestazioni territoriali.</p></header>
+        <figure class="wiki-figure"><div class="wiki-screen"><img src="images/documentation/screens/families.png" alt="Pagina Famiglie con ricerca e profilo del casato selezionato" /><button class="wiki-pin" style="--x:38%;--y:48%" data-note="families-1">1</button><button class="wiki-pin" style="--x:82%;--y:49%" data-note="families-2">2</button></div></figure>
+        <div class="wiki-notes"><article id="families-1"><span>1</span><div><h3>Ricerca e selezione</h3><p>Digita il nome o scorri l’elenco. La scelta aggiorna tutte le sezioni successive senza cambiare pagina.</p></div></article><article id="families-2"><span>2</span><div><h3>Profilo sintetico</h3><p>Il box riassume attestazioni, mappe, familiari e località, offrendo una prima misura della presenza del nucleo nel dataset.</p></div></article></div>
+      </section>
+
+      <section id="famiglie-mappa" class="wiki-section" data-wiki-section data-search="famiglie mappa timebar possedimenti fase anno">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">Famiglie · mappa e timebar</p><h2>Seguire i possedimenti nel tempo</h2><p>La timebar seleziona una fase documentaria; la mappa distingue attestazioni correnti, precedenti e incerte. La scheda laterale mantiene leggibile la gerarchia territoriale.</p></header>
+        <figure class="wiki-figure"><div class="wiki-screen wiki-screen--family-map"><img src="images/documentation/screens/fam_timemap.png" alt="Mappa dei possedimenti di una famiglia con scheda del luogo e timebar" /><button class="wiki-pin" style="--x:46%;--y:94%" data-note="family-map-1">1</button><button class="wiki-pin" style="--x:88%;--y:39%" data-note="family-map-2">2</button></div></figure>
+        <div class="wiki-notes"><article id="family-map-1"><span>1</span><div><h3>Geometrie e fase</h3><p>Seleziona una forma per consultare il luogo. Stili pieni e tratteggiati distinguono la fase attiva dalle altre attestazioni.</p></div></article><article id="family-map-2"><span>2</span><div><h3>Scheda del luogo</h3><p>Il pannello indica fonte, cronologia, tipo di proprietà e posizione del record nella gerarchia.</p></div></article></div>
+      </section>
+
+      <section id="famiglie-fonti" class="wiki-section" data-wiki-section data-search="famiglie personaggi tracce documentarie fonti mappe">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">Famiglie · personaggi e fonti</p><h2>Le persone dietro le geometrie</h2><p>La parte conclusiva raccoglie i membri noti del nucleo e le tracce documentarie che ne attestano la presenza nelle carte.</p></header>
+        <div class="family-footer-demo">
+          <section><h3>Personaggi collegati</h3><div><article><i class="bi bi-person"></i><strong>Giovanni Bellucci</strong><span>proprietario</span></article><article><i class="bi bi-person"></i><strong>Battista Bellucci</strong><span>possidente</span></article><article><i class="bi bi-person"></i><strong>Maria Bellucci</strong><span>nucleo familiare</span></article></div></section>
+          <section><h3>Tracce documentarie</h3><ol><li><span>1825</span><strong>VG_68</strong><small>Terreni e fabbricati</small></li><li><span>1828</span><strong>VG_130</strong><small>Attestazione cartografica</small></li><li><span>1894</span><strong>VG_54</strong><small>Vignola e dintorni</small></li></ol></section>
+          <button class="wiki-pin" style="--x:27%;--y:48%" data-note="family-footer-1">1</button><button class="wiki-pin" style="--x:75%;--y:48%" data-note="family-footer-2">2</button>
+        </div>
+        <div class="wiki-notes"><article id="family-footer-1"><span>1</span><div><h3>Personaggi</h3><p>Le schede individuali distinguono persone e famiglie e consentono di seguire i collegamenti parentali già presenti nei dati.</p></div></article><article id="family-footer-2"><span>2</span><div><h3>Tracce documentarie</h3><p>Le attestazioni sono ordinate cronologicamente e rimandano alle mappe che documentano un luogo, una proprietà o una relazione.</p></div></article></div>
+      </section>
+
+      <section id="citta" class="wiki-section" data-wiki-section data-search="città storia mappa timeline rewind Vignola fasi selettore geometrie">
+        <header class="wiki-section__head"><p class="wiki-eyebrow">La città nella storia</p><h2>Confrontare le trasformazioni</h2><p>Questa vista mette in sequenza le mappe che raffigurano una stessa città. La timeline cambia fase, mentre il rewind mirato consente di riaprire l’attestazione precedente di un singolo luogo.</p></header>
+        <figure class="wiki-figure"><div class="wiki-screen wiki-screen--wide"><img src="images/documentation/screens/city_history.png" alt="Pagina La città nella storia con selettore della città, geometrie e timeline" /><button class="wiki-pin" style="--x:13%;--y:10%" data-note="city-1">1</button><button class="wiki-pin" style="--x:14%;--y:60%" data-note="city-2">2</button><button class="wiki-pin" style="--x:58%;--y:52%" data-note="city-3">3</button><button class="wiki-pin" style="--x:54%;--y:96%" data-note="city-4">4</button><button class="wiki-pin" style="--x:93%;--y:8%" data-note="city-5">5</button></div></figure>
+        <div class="wiki-notes">
+          <article id="city-1"><span>1</span><div><h3>Scegli la città</h3><p>Il selettore carica il profilo del comune scelto e aggiorna insieme carte disponibili, geometrie, statistiche e intervallo cronologico.</p></div></article>
+          <article id="city-2"><span>2</span><div><h3>Mappe della città</h3><p>L’elenco riporta anno e numero di luoghi riconosciuti. La selezione porta la timeline alla fase corrispondente.</p></div></article>
+          <article id="city-3"><span>3</span><div><h3>Geometrie interattive</h3><p>Ogni geometria è cliccabile: il click apre la scheda del luogo con denominazione, categoria, fonte e attestazioni disponibili, mantenendo visibile il contesto urbano.</p></div></article>
+          <article id="city-4"><span>4</span><div><h3>Timeline urbana</h3><p>I nodi rappresentano le attestazioni disponibili. Le geometrie precedenti rimangono leggibili per favorire il confronto.</p></div></article>
+          <article id="city-5"><span>5</span><div><h3>Controlli di vista</h3><p>Adatta la mappa alle geometrie e ripristina l’inquadramento quando l’esplorazione ti porta fuori dall’area documentata.</p></div></article>
+        </div>
+      </section>
+
+      <div id="wiki-no-results" class="wiki-no-results" hidden><i class="bi bi-search"></i><h2>Nessun risultato</h2><p>Prova con “timeline”, “archivi”, “filtri” o “famiglie”.</p></div>
+    </article>
+    <footer class="wiki-footer"><span>Terre di Castelli · Atlante Storico Digitale</span><a href="#intro">Torna all’inizio <i class="bi bi-arrow-up"></i></a></footer>
+  </main>
+
+  <script src="static/js/wiki/wiki.js"></script>
+</body>
+</html>

@@ -444,8 +444,9 @@ function buildMiniMap(elId, tags, matches, allFeatures, onSelect){
   });
   map.zoomControl.setPosition('bottomright');
 
-  window.L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OSM & CARTO'
+  window.L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
 
   const renderer = window.L.canvas({padding: .5});

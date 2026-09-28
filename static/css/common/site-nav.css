@@ -23,6 +23,7 @@ body.has-site-nav.detail-page #detail-app{ height: calc(100vh - var(--site-nav-h
 .site-nav__link:hover{ transform: translateY(-1px); background: rgba(255,255,255,.86); border-color: rgba(15,23,42,.10); }
 .site-nav__link.is-active{ background: rgba(37,99,235,.08); border-color: rgba(37,99,235,.16); color: var(--site-nav-accent); }
 .site-nav__link i{ font-size: 1rem; }
+@media (max-width: 1100px){ .site-nav__brand-copy{ display:none; } .site-nav__inner{ width:min(100%,calc(100% - 20px)); } .site-nav__links{ flex-wrap:nowrap; } .site-nav__link{ padding:0 11px; } }
 body.webgis-page .site-nav,
 body.detail-page .site-nav{ --site-nav-bg: rgba(10,16,30,.82); --site-nav-border: rgba(148,163,184,.16); --site-nav-text: #e5e7eb; --site-nav-muted: #94a3b8; --site-nav-accent: #f59e0b; --site-nav-shadow: 0 10px 28px rgba(0,0,0,.28); }
 body.webgis-page .site-nav__brand-mark,
